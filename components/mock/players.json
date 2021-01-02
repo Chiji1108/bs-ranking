@@ -1,0 +1,1768 @@
+{
+  "data": {
+    "players": [
+      {
+        "tag": "#9U2QJ0P",
+        "rank": 1,
+        "trophies": 45350,
+        "name": "T-Guys|Püu",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#20JGGPV98",
+        "rank": 2,
+        "trophies": 44115,
+        "name": "€uRo |チョコボ♪",
+        "club": {
+          "name": "ユーロ"
+        }
+      },
+      {
+        "tag": "#UR2UL8YR",
+        "rank": 3,
+        "trophies": 41035,
+        "name": "T-Guys|Moyashi",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#80U892PYY",
+        "rank": 4,
+        "trophies": 40598,
+        "name": "あかる/enfant",
+        "club": {
+          "name": "あいうえお"
+        }
+      },
+      {
+        "tag": "#288RULGC",
+        "rank": 5,
+        "trophies": 39943,
+        "name": "きょ〜べ⌬どっとこむ⌬",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#UJPUUUGY",
+        "rank": 6,
+        "trophies": 39376,
+        "name": "れがのちゅけ",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#28LPLRJJR",
+        "rank": 7,
+        "trophies": 39186,
+        "name": "SKS/まりや",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2UVG8P9GL",
+        "rank": 8,
+        "trophies": 39181,
+        "name": "ღFuu",
+        "club": {
+          "name": "ホワイトカンパニー"
+        }
+      },
+      {
+        "tag": "#G8ULGJPP",
+        "rank": 9,
+        "trophies": 38695,
+        "name": "✩NR✯Doraho❥❥❥",
+        "club": null
+      },
+      {
+        "tag": "#2Q8828U0",
+        "rank": 10,
+        "trophies": 38673,
+        "name": "✨Brawl Master♥",
+        "club": {
+          "name": "バトロワ研究室"
+        }
+      },
+      {
+        "tag": "#YYLVQYG",
+        "rank": 11,
+        "trophies": 38308,
+        "name": "サーモン",
+        "club": {
+          "name": "僕の名も希望"
+        }
+      },
+      {
+        "tag": "#8089G80",
+        "rank": 12,
+        "trophies": 38035,
+        "name": "カツ",
+        "club": {
+          "name": "僕の名も希望"
+        }
+      },
+      {
+        "tag": "#8GP890P8",
+        "rank": 13,
+        "trophies": 37915,
+        "name": "Nightfoxฅ^•ﻌ•^ฅ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#20RGG0RLR",
+        "rank": 14,
+        "trophies": 37736,
+        "name": "そめをだどー！",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#PUVCYQ02",
+        "rank": 15,
+        "trophies": 37598,
+        "name": "Lil.ai 1249☃︎",
+        "club": null
+      },
+      {
+        "tag": "#8Y0L90QV8",
+        "rank": 16,
+        "trophies": 37570,
+        "name": "ぺけころ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2Q90CYVJ0",
+        "rank": 17,
+        "trophies": 37463,
+        "name": "KG.",
+        "club": null
+      },
+      {
+        "tag": "#PGGGL8U8",
+        "rank": 18,
+        "trophies": 37246,
+        "name": "Lil.Kaeparu👼🏻",
+        "club": {
+          "name": "KIX RISING SUN"
+        }
+      },
+      {
+        "tag": "#QUG0RV82",
+        "rank": 19,
+        "trophies": 37100,
+        "name": "❤Alice❤",
+        "club": null
+      },
+      {
+        "tag": "#P22Y9Q22",
+        "rank": 20,
+        "trophies": 36953,
+        "name": "߹ ₱ien ߹ ∮null☻",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#280U8CUY8",
+        "rank": 21,
+        "trophies": 36789,
+        "name": "DJ黄金のグーン",
+        "club": {
+          "name": "TRNDSTTR"
+        }
+      },
+      {
+        "tag": "#P08RCJ8G",
+        "rank": 22,
+        "trophies": 36666,
+        "name": "🥀Index+S_イグザス☠",
+        "club": {
+          "name": "プロテスタント"
+        }
+      },
+      {
+        "tag": "#2YUPVG0G0",
+        "rank": 23,
+        "trophies": 36660,
+        "name": "ᴍ꙼̈ᴇᴄ ♡⃛ Ham ♡⃛",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#8J2JPP9C8",
+        "rank": 24,
+        "trophies": 36543,
+        "name": "KTPG/ケチョリゲス",
+        "club": {
+          "name": "伝説のリゲス族"
+        }
+      },
+      {
+        "tag": "#2U8GL9Y8J",
+        "rank": 25,
+        "trophies": 36520,
+        "name": "DND〆Iharu(最強＝俺",
+        "club": {
+          "name": "Team Apple"
+        }
+      },
+      {
+        "tag": "#PUYRY99J",
+        "rank": 26,
+        "trophies": 36451,
+        "name": "SEA|kumachi♪god",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#P00UV9CP",
+        "rank": 27,
+        "trophies": 36451,
+        "name": "SGM￤TiRaNDeFe🥀",
+        "club": {
+          "name": "ブロスタバグ調査団"
+        }
+      },
+      {
+        "tag": "#2U9YJRLP0",
+        "rank": 28,
+        "trophies": 36440,
+        "name": "がりょんちゃん",
+        "club": null
+      },
+      {
+        "tag": "#88G020298",
+        "rank": 29,
+        "trophies": 36404,
+        "name": "あるのちゅけ",
+        "club": {
+          "name": "☘️ほのふぁ～！Re:☘️"
+        }
+      },
+      {
+        "tag": "#2LY99YGP8",
+        "rank": 30,
+        "trophies": 36361,
+        "name": "FANZAレペゼン蒼井そら🏩",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2UY0R20",
+        "rank": 31,
+        "trophies": 36189,
+        "name": "zest🥀Bomb❄️",
+        "club": {
+          "name": "あしデスの愉快な仲間たち"
+        }
+      },
+      {
+        "tag": "#8GVRCYLJ",
+        "rank": 32,
+        "trophies": 36181,
+        "name": "JUP│rabbit❦͙₠₨",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#9LGJ9J8LJ",
+        "rank": 33,
+        "trophies": 36097,
+        "name": "🥀Index+S_バンパー",
+        "club": {
+          "name": "みみみみミント！"
+        }
+      },
+      {
+        "tag": "#QV808LR9",
+        "rank": 34,
+        "trophies": 36067,
+        "name": "まさをだどー！",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#PR0RU0JG",
+        "rank": 35,
+        "trophies": 36037,
+        "name": "Banameee☻",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#9VC8L98",
+        "rank": 36,
+        "trophies": 35982,
+        "name": "Nightmare😈",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#80JP0VPCL",
+        "rank": 37,
+        "trophies": 35894,
+        "name": "©️.家族｜ハイドロ",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#2UVY9CPV",
+        "rank": 38,
+        "trophies": 35848,
+        "name": "Kawashima",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#80GLYV2G",
+        "rank": 39,
+        "trophies": 35772,
+        "name": "F**k GTO",
+        "club": {
+          "name": "オーシャンズビュー"
+        }
+      },
+      {
+        "tag": "#Y28UCY0R",
+        "rank": 40,
+        "trophies": 35770,
+        "name": "だんご⌬どっとこむ⌬",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#2RYRP0J",
+        "rank": 41,
+        "trophies": 35762,
+        "name": "߹ ₱ien ߹ 昆布☺︎",
+        "club": {
+          "name": "<c5>Bliss</c>"
+        }
+      },
+      {
+        "tag": "#28RCU0RR8",
+        "rank": 42,
+        "trophies": 35675,
+        "name": "Y*dyson*Y",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#Y29P2L2C",
+        "rank": 43,
+        "trophies": 35584,
+        "name": "Flare |𝓼𝓱𝓸💫",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8CYJ8LJQQ",
+        "rank": 44,
+        "trophies": 35535,
+        "name": "ちん選組/ちんx",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2CQR9JULP",
+        "rank": 45,
+        "trophies": 35479,
+        "name": "SGM￤YamamonDa🥀",
+        "club": {
+          "name": "悪魔の小瓶"
+        }
+      },
+      {
+        "tag": "#29VGVQVGC",
+        "rank": 46,
+        "trophies": 35424,
+        "name": "€uRo|いっちぃ",
+        "club": null
+      },
+      {
+        "tag": "#GVPV0990",
+        "rank": 47,
+        "trophies": 35362,
+        "name": "AIM｜Yuto",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#GGG8GCV2",
+        "rank": 48,
+        "trophies": 35339,
+        "name": "FIare｜𝓡𝓲𝓷💫",
+        "club": {
+          "name": "✨Hates K1ds✨"
+        }
+      },
+      {
+        "tag": "#8V9QU02C",
+        "rank": 49,
+        "trophies": 35232,
+        "name": "⋆͛New☆かんたろ⋆͛",
+        "club": {
+          "name": "New Lights"
+        }
+      },
+      {
+        "tag": "#2U9JVU2YV",
+        "rank": 50,
+        "trophies": 35156,
+        "name": "Gσԃ Dσɠ|NҽσX2",
+        "club": {
+          "name": "CMC Academy"
+        }
+      },
+      {
+        "tag": "#9P0C0QGJ",
+        "rank": 51,
+        "trophies": 35103,
+        "name": "借りぐらしのしらたっきꙊꙫꙫꙫ",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#2PCP8809Q",
+        "rank": 52,
+        "trophies": 35065,
+        "name": "⚡The 25th Bam⚡",
+        "club": {
+          "name": "Renegades"
+        }
+      },
+      {
+        "tag": "#22GV800Q",
+        "rank": 53,
+        "trophies": 35037,
+        "name": "✩NR✯IXbeko❥❥❥",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2GPRUGQYQ",
+        "rank": 54,
+        "trophies": 34886,
+        "name": "🧸くまのぺんちゃん🍯",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#88LLQGP0Q",
+        "rank": 55,
+        "trophies": 34792,
+        "name": "zest🥀Miracle❄️",
+        "club": {
+          "name": "君のあだ名は"
+        }
+      },
+      {
+        "tag": "#2C20G29VU",
+        "rank": 56,
+        "trophies": 34752,
+        "name": "э1rï❦͙ᴸᵒᵛᵉᵧₒᵤ❦͙",
+        "club": {
+          "name": "ブロスタ女学園"
+        }
+      },
+      {
+        "tag": "#2P0992PQQ",
+        "rank": 57,
+        "trophies": 34706,
+        "name": "ギャランドゥ⭐️ソフィ",
+        "club": null
+      },
+      {
+        "tag": "#89V9GJ29Y",
+        "rank": 58,
+        "trophies": 34698,
+        "name": "マジョラム@猫",
+        "club": {
+          "name": "猫さん本舗"
+        }
+      },
+      {
+        "tag": "#9QR2GV89",
+        "rank": 59,
+        "trophies": 34692,
+        "name": "B-girls✿どぅ",
+        "club": {
+          "name": "ブロスタ女学園"
+        }
+      },
+      {
+        "tag": "#YUY82PPR",
+        "rank": 60,
+        "trophies": 34662,
+        "name": "ペンＧの飼いイクゥ🐕",
+        "club": {
+          "name": "RyuTube"
+        }
+      },
+      {
+        "tag": "#29CGJ2GYC",
+        "rank": 61,
+        "trophies": 34585,
+        "name": "∯Fresh∯マンゴー",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#22G2C9QG8",
+        "rank": 62,
+        "trophies": 34566,
+        "name": "ほたる",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#20RRYCJ00",
+        "rank": 63,
+        "trophies": 34549,
+        "name": "テクいカーチャソ",
+        "club": {
+          "name": "むきたまご日本橋店"
+        }
+      },
+      {
+        "tag": "#2UPLY9PP9",
+        "rank": 64,
+        "trophies": 34422,
+        "name": "Onill",
+        "club": null
+      },
+      {
+        "tag": "#2VJV2U0",
+        "rank": 65,
+        "trophies": 34419,
+        "name": "ぽーーすけ☺︎",
+        "club": {
+          "name": "今日も元気に姫路城🏯"
+        }
+      },
+      {
+        "tag": "#VQLLY0RC",
+        "rank": 66,
+        "trophies": 34380,
+        "name": "T-Guys|Miria",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#P0Y8JGL0U",
+        "rank": 67,
+        "trophies": 34372,
+        "name": "りょーーーーーた",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2VRJVRJ2",
+        "rank": 68,
+        "trophies": 34320,
+        "name": "あーちぃずごっどぉ！",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2JGPU80LY",
+        "rank": 69,
+        "trophies": 34314,
+        "name": "ヴィト☆",
+        "club": {
+          "name": "君のあだ名は"
+        }
+      },
+      {
+        "tag": "#20LCY0VCR",
+        "rank": 70,
+        "trophies": 34217,
+        "name": "みくす₰𓂸",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8QCP9G90Y",
+        "rank": 71,
+        "trophies": 34181,
+        "name": "WAHz✨TAPIX✨",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#9LLJYCY",
+        "rank": 72,
+        "trophies": 34147,
+        "name": "らぶちも❄️",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#R9ULQLPV",
+        "rank": 73,
+        "trophies": 34058,
+        "name": "↻ISA↺╎乾燥わかめちぃ！！",
+        "club": {
+          "name": "色づく世界の明日から♪"
+        }
+      },
+      {
+        "tag": "#2P09RPCRV",
+        "rank": 74,
+        "trophies": 34046,
+        "name": "zest🥀akaneko❄",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#8ULQGLULU",
+        "rank": 75,
+        "trophies": 34028,
+        "name": "あもちゃまる",
+        "club": {
+          "name": "DUO LOVEღ"
+        }
+      },
+      {
+        "tag": "#20RCYGLGR",
+        "rank": 76,
+        "trophies": 34015,
+        "name": "しその葉っぱ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#9RVPR2Q8Q",
+        "rank": 77,
+        "trophies": 34002,
+        "name": "۞画面外のつばき۞",
+        "club": {
+          "name": "社会人のまったりブロスタ支社"
+        }
+      },
+      {
+        "tag": "#U899CJ90",
+        "rank": 78,
+        "trophies": 33970,
+        "name": "我らはもぶーわいず",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#CG0L9CU",
+        "rank": 79,
+        "trophies": 33870,
+        "name": "𝐏𝐅®きゃんちょめ🍭",
+        "club": null
+      },
+      {
+        "tag": "#2C8UCCR0L",
+        "rank": 80,
+        "trophies": 33819,
+        "name": "Cadomeee☻",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#P8QJ8VQ0",
+        "rank": 81,
+        "trophies": 33810,
+        "name": "GLA ┃ 陽炎の極み侍㌨",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8UL8Q9YL9",
+        "rank": 82,
+        "trophies": 33765,
+        "name": "TS|フレディ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#89ULVJG8P",
+        "rank": 83,
+        "trophies": 33755,
+        "name": "ろるぴなのだ！",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#2G20L2CPG",
+        "rank": 84,
+        "trophies": 33734,
+        "name": "Kabaddi＠ゆっき〜❄️",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#GQYQCPR2",
+        "rank": 85,
+        "trophies": 33711,
+        "name": "ドクターK㌨㌨",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#CYJQ0JQG",
+        "rank": 86,
+        "trophies": 33700,
+        "name": "CYN|baka",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2LJL2V22Q",
+        "rank": 87,
+        "trophies": 33693,
+        "name": "iris",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2RRGRGCRL",
+        "rank": 88,
+        "trophies": 33656,
+        "name": "アローラぽぽちゅきてぃすゼロ",
+        "club": {
+          "name": "RyuTube"
+        }
+      },
+      {
+        "tag": "#9QQ0YJQ0",
+        "rank": 89,
+        "trophies": 33642,
+        "name": "✰Ririsu✰",
+        "club": null
+      },
+      {
+        "tag": "#P29Y9UGU",
+        "rank": 90,
+        "trophies": 33584,
+        "name": "KRS | Dembsey",
+        "club": {
+          "name": "KIX RISING SUN"
+        }
+      },
+      {
+        "tag": "#2VP0UGQU8",
+        "rank": 91,
+        "trophies": 33547,
+        "name": "南極のミ○キー",
+        "club": {
+          "name": "KLAM.HOUSE"
+        }
+      },
+      {
+        "tag": "#JC0UQUYR",
+        "rank": 92,
+        "trophies": 33535,
+        "name": "りくと",
+        "club": {
+          "name": "介護センター"
+        }
+      },
+      {
+        "tag": "#802Y2LCJJ",
+        "rank": 93,
+        "trophies": 33511,
+        "name": "❤️アリアナファン倶楽部❤️",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#CQRU2C02",
+        "rank": 94,
+        "trophies": 33446,
+        "name": "りすくま🐿🧸",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8VQ89PYC",
+        "rank": 95,
+        "trophies": 33389,
+        "name": "NGU|魔術師よつしい",
+        "club": {
+          "name": "NeverGiveUp"
+        }
+      },
+      {
+        "tag": "#2C98VY82L",
+        "rank": 96,
+        "trophies": 33374,
+        "name": "栗松くん",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2R909QY",
+        "rank": 97,
+        "trophies": 33351,
+        "name": "雪？！？",
+        "club": null
+      },
+      {
+        "tag": "#282R8LVR2",
+        "rank": 98,
+        "trophies": 33342,
+        "name": "あかちも❄",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#99GQYY2",
+        "rank": 99,
+        "trophies": 33298,
+        "name": "ケリしゅ✟Kerisyu✟",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#PJYGUJLPY",
+        "rank": 100,
+        "trophies": 33273,
+        "name": "UM|Ringobu",
+        "club": {
+          "name": "BC アンダーマイン"
+        }
+      },
+      {
+        "tag": "#2G0JUQ2",
+        "rank": 101,
+        "trophies": 33240,
+        "name": "KLAM.かりゅう",
+        "club": {
+          "name": "KLAM.HOUSE"
+        }
+      },
+      {
+        "tag": "#8CR002C8Q",
+        "rank": 102,
+        "trophies": 33223,
+        "name": "LitchaaaaaaN",
+        "club": {
+          "name": "<c5>$NỏẅмAЙ</c>"
+        }
+      },
+      {
+        "tag": "#20VC9LV2",
+        "rank": 103,
+        "trophies": 33170,
+        "name": "ブラジルの婆さん",
+        "club": {
+          "name": "ピースサイン"
+        }
+      },
+      {
+        "tag": "#28Q0QULC2",
+        "rank": 104,
+        "trophies": 33144,
+        "name": "T-Guys|Akaza",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8U8LY9QQV",
+        "rank": 105,
+        "trophies": 33113,
+        "name": "“GB”gûmí🦋",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#2PVVV2PY",
+        "rank": 106,
+        "trophies": 33108,
+        "name": "“~.YAPPY.~*_*”",
+        "club": {
+          "name": "KLAM.HOUSE"
+        }
+      },
+      {
+        "tag": "#P0CJJGC",
+        "rank": 107,
+        "trophies": 33092,
+        "name": "D⚡︎HALKUSɞ·*",
+        "club": {
+          "name": "ZERUCH"
+        }
+      },
+      {
+        "tag": "#8YQ9ULL",
+        "rank": 108,
+        "trophies": 33068,
+        "name": "嵐神のべるねこ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2RY0YLUV",
+        "rank": 109,
+        "trophies": 33064,
+        "name": "朝はパン派〆猫",
+        "club": {
+          "name": "KLAM.HOUSE"
+        }
+      },
+      {
+        "tag": "#8LC808G",
+        "rank": 110,
+        "trophies": 33049,
+        "name": "APTOMATO",
+        "club": {
+          "name": "Team Apple"
+        }
+      },
+      {
+        "tag": "#VGYR92CJ",
+        "rank": 111,
+        "trophies": 33046,
+        "name": "Kabimeee☻",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#20RRP0PJY",
+        "rank": 112,
+        "trophies": 32959,
+        "name": "APai.",
+        "club": {
+          "name": "@Ai_fermi"
+        }
+      },
+      {
+        "tag": "#9QJPQCLJC",
+        "rank": 113,
+        "trophies": 32939,
+        "name": "そうルーティング",
+        "club": null
+      },
+      {
+        "tag": "#2YU0200U",
+        "rank": 114,
+        "trophies": 32844,
+        "name": "\"ワンワン\"",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#YU8JJ8G0",
+        "rank": 115,
+        "trophies": 32802,
+        "name": "いっちっちーの",
+        "club": {
+          "name": "ねずみとにわとり"
+        }
+      },
+      {
+        "tag": "#22L2YCJPU",
+        "rank": 116,
+        "trophies": 32769,
+        "name": "🍣˚✧₊Ryuki˚✧₊🐙",
+        "club": null
+      },
+      {
+        "tag": "#20JYLU8JU",
+        "rank": 117,
+        "trophies": 32756,
+        "name": "トミエルʚ♥ɞ( ᐛ👐 )",
+        "club": {
+          "name": "オーシャンズビュー"
+        }
+      },
+      {
+        "tag": "#8PPVUPLQV",
+        "rank": 118,
+        "trophies": 32685,
+        "name": "DOPE | Hide-Tin",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#99LYCUU92",
+        "rank": 119,
+        "trophies": 32678,
+        "name": "よたろ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2VLC292Q8",
+        "rank": 120,
+        "trophies": 32620,
+        "name": "FatRat♣️",
+        "club": {
+          "name": "バトロワ研究室"
+        }
+      },
+      {
+        "tag": "#2C0G0Q2",
+        "rank": 121,
+        "trophies": 32604,
+        "name": "Ren.k❦",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#G8Q0V8RP",
+        "rank": 122,
+        "trophies": 32570,
+        "name": "SEA┃Xeno♪凜は飾り",
+        "club": {
+          "name": "どーじょー"
+        }
+      },
+      {
+        "tag": "#QPV0QJGQ",
+        "rank": 123,
+        "trophies": 32565,
+        "name": "Eris",
+        "club": {
+          "name": "TeamLiquid Asia"
+        }
+      },
+      {
+        "tag": "#LG999JQQ",
+        "rank": 124,
+        "trophies": 32525,
+        "name": "ほりかわ",
+        "club": {
+          "name": "ぽんきっき"
+        }
+      },
+      {
+        "tag": "#P8V20VL",
+        "rank": 125,
+        "trophies": 32504,
+        "name": "Nove|炎月",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#VC99CV2Q",
+        "rank": 126,
+        "trophies": 32456,
+        "name": "ICE BAHN|Ryohei",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8JQYGJLC8",
+        "rank": 127,
+        "trophies": 32427,
+        "name": "ナエトル🌱🐢🐶",
+        "club": {
+          "name": "RyuTube"
+        }
+      },
+      {
+        "tag": "#9GVGV2RJ",
+        "rank": 128,
+        "trophies": 32421,
+        "name": "RitchaaaaaaN",
+        "club": {
+          "name": "Đuo²♠SpecialtŸ"
+        }
+      },
+      {
+        "tag": "#20RU2R9QJ",
+        "rank": 129,
+        "trophies": 32404,
+        "name": "Pote✨revive",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#GC8VCR8",
+        "rank": 130,
+        "trophies": 32400,
+        "name": "۞画面外のちびとり‎۞",
+        "club": {
+          "name": "ホワイトカンパニー"
+        }
+      },
+      {
+        "tag": "#28Q9090GR",
+        "rank": 131,
+        "trophies": 32358,
+        "name": "⊿アクアネスの弟子の師匠⊿46",
+        "club": {
+          "name": "まったりクラブ💖"
+        }
+      },
+      {
+        "tag": "#YV8QY99L",
+        "rank": 132,
+        "trophies": 32354,
+        "name": "maru1",
+        "club": {
+          "name": "DUO LOVEღ"
+        }
+      },
+      {
+        "tag": "#28U8CRRP9",
+        "rank": 133,
+        "trophies": 32332,
+        "name": "ぺるღ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#9V9Y8R8PR",
+        "rank": 134,
+        "trophies": 32332,
+        "name": "Ryuйо🐙",
+        "club": null
+      },
+      {
+        "tag": "#2Y00LUPG8",
+        "rank": 135,
+        "trophies": 32331,
+        "name": "Lil.Mikusey",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#RR8LJR2Q",
+        "rank": 136,
+        "trophies": 32301,
+        "name": "☃︎☆ちゃんこけってぃー☆☃︎",
+        "club": null
+      },
+      {
+        "tag": "#290QC9PGC",
+        "rank": 137,
+        "trophies": 32248,
+        "name": "GLA | 迅雷の極み侍㌨",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#28RVRRVQC",
+        "rank": 138,
+        "trophies": 32248,
+        "name": "ナイト",
+        "club": {
+          "name": "OSUSHI"
+        }
+      },
+      {
+        "tag": "#22UUPPJPG",
+        "rank": 139,
+        "trophies": 32214,
+        "name": "のはと",
+        "club": {
+          "name": "僕の名も希望"
+        }
+      },
+      {
+        "tag": "#UGCCYC8",
+        "rank": 140,
+        "trophies": 32209,
+        "name": "Eclipse|Pepe",
+        "club": {
+          "name": "Eclipse"
+        }
+      },
+      {
+        "tag": "#88RGGCVQJ",
+        "rank": 141,
+        "trophies": 32180,
+        "name": "緋奈海だいち",
+        "club": null
+      },
+      {
+        "tag": "#8UCPJ29C",
+        "rank": 142,
+        "trophies": 32180,
+        "name": "➹⋆͛Petrashᵕ̈*",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#98U8LYPU",
+        "rank": 143,
+        "trophies": 32167,
+        "name": "❀٩なべちゃね۶❀",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#8R2JPL0",
+        "rank": 144,
+        "trophies": 32125,
+        "name": "我武神りこりす也",
+        "club": {
+          "name": "RyuTube"
+        }
+      },
+      {
+        "tag": "#89QPGG2",
+        "rank": 145,
+        "trophies": 32125,
+        "name": "ぽんをだどー！",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#9ULYG2CRL",
+        "rank": 146,
+        "trophies": 32102,
+        "name": "♪れんログ！♥ゆうゆうチ定！♪",
+        "club": {
+          "name": "★チ定族★"
+        }
+      },
+      {
+        "tag": "#2C0LPCJGY",
+        "rank": 147,
+        "trophies": 32088,
+        "name": "𝓨𝓾𝓾𝓴𝓲ˢⁿᵒʷ",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#9C020L80",
+        "rank": 148,
+        "trophies": 32086,
+        "name": "☃️しぶちゃちゃ☃️",
+        "club": {
+          "name": "桃組"
+        }
+      },
+      {
+        "tag": "#2LYCGYJQ8",
+        "rank": 149,
+        "trophies": 32079,
+        "name": "♪れんログ！↯ぐぅみぃ↯",
+        "club": {
+          "name": "FUJISAN ／^_^＼"
+        }
+      },
+      {
+        "tag": "#GQ2QPYPV",
+        "rank": 150,
+        "trophies": 32068,
+        "name": "スローワーの神HIBIKI",
+        "club": {
+          "name": "インキャやめな"
+        }
+      },
+      {
+        "tag": "#282RVVL8L",
+        "rank": 151,
+        "trophies": 32061,
+        "name": "いっせい",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#20GU9090J",
+        "rank": 152,
+        "trophies": 32055,
+        "name": "DEM",
+        "club": {
+          "name": "猫さん本舗"
+        }
+      },
+      {
+        "tag": "#8RJL0U2LR",
+        "rank": 153,
+        "trophies": 32044,
+        "name": "AXE｜༄Kouga❦༄",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#9P8Q2QPC",
+        "rank": 154,
+        "trophies": 32037,
+        "name": "❀りょーるぱんなちゃん❡",
+        "club": {
+          "name": "オーシャンズビュー"
+        }
+      },
+      {
+        "tag": "#22UUPGY98",
+        "rank": 155,
+        "trophies": 32011,
+        "name": "すねころ",
+        "club": {
+          "name": "Canon"
+        }
+      },
+      {
+        "tag": "#JRVYLL9Q",
+        "rank": 156,
+        "trophies": 32010,
+        "name": "꧁Rìøt｜Queen꧂",
+        "club": {
+          "name": "DUO LOVEღ"
+        }
+      },
+      {
+        "tag": "#PVLJ80GR",
+        "rank": 157,
+        "trophies": 32008,
+        "name": "Tom",
+        "club": {
+          "name": "ブロスタバグ調査団"
+        }
+      },
+      {
+        "tag": "#9QG2JPG8",
+        "rank": 158,
+        "trophies": 32002,
+        "name": "♣︎*hutoko*♣︎♛",
+        "club": {
+          "name": "やりらふぃーず"
+        }
+      },
+      {
+        "tag": "#99CQQJY9G",
+        "rank": 159,
+        "trophies": 32001,
+        "name": "❦Guy-G￤swimy❦",
+        "club": {
+          "name": "<c5>$NỏẅмAЙ</c>"
+        }
+      },
+      {
+        "tag": "#2U89008LQ",
+        "rank": 160,
+        "trophies": 31984,
+        "name": "FANZAレペゼン紗倉まな🏩",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8GQYG2QYU",
+        "rank": 161,
+        "trophies": 31972,
+        "name": "あるえちゃん",
+        "club": {
+          "name": "KIX RISING SUN"
+        }
+      },
+      {
+        "tag": "#2LJUGP0CG",
+        "rank": 162,
+        "trophies": 31940,
+        "name": "❃Oinari❃",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#29CCYL2VL",
+        "rank": 163,
+        "trophies": 31918,
+        "name": "ゆいな",
+        "club": {
+          "name": "愛の音"
+        }
+      },
+      {
+        "tag": "#R0LJCQLR",
+        "rank": 164,
+        "trophies": 31914,
+        "name": "Ôrca🐳",
+        "club": {
+          "name": "Renegades"
+        }
+      },
+      {
+        "tag": "#828CLL",
+        "rank": 165,
+        "trophies": 31874,
+        "name": "ターメリック_YouTube",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2PULJV8PG",
+        "rank": 166,
+        "trophies": 31870,
+        "name": "➹𝐑𝐀𝐍ひとで➷",
+        "club": {
+          "name": "ブロスタ女学園"
+        }
+      },
+      {
+        "tag": "#20CGGY08U",
+        "rank": 167,
+        "trophies": 31856,
+        "name": "だって俺カッコいいもん",
+        "club": {
+          "name": "だって俺カッコいいもん"
+        }
+      },
+      {
+        "tag": "#C92YCJ2",
+        "rank": 168,
+        "trophies": 31854,
+        "name": "正直タピオカやろ？",
+        "club": {
+          "name": "バトロワガチ勢‼️"
+        }
+      },
+      {
+        "tag": "#80982G0V0",
+        "rank": 169,
+        "trophies": 31845,
+        "name": "ビントロ",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#P00P2V08P",
+        "rank": 170,
+        "trophies": 31834,
+        "name": "제로",
+        "club": {
+          "name": "자유 시간"
+        }
+      },
+      {
+        "tag": "#2YV9YCVGU",
+        "rank": 171,
+        "trophies": 31832,
+        "name": "Łітʑy﹍×_× 。",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#GJ2GQCVJ",
+        "rank": 172,
+        "trophies": 31826,
+        "name": "Eclipse|Daiki",
+        "club": {
+          "name": "Eclipse"
+        }
+      },
+      {
+        "tag": "#8V9VY0JQV",
+        "rank": 173,
+        "trophies": 31825,
+        "name": "KLAM.まいたん",
+        "club": {
+          "name": "KLAM.HOUSE"
+        }
+      },
+      {
+        "tag": "#JGRVL00R",
+        "rank": 174,
+        "trophies": 31776,
+        "name": "♛︎Detox|まえぽん♛︎",
+        "club": {
+          "name": "STUDIO GHIBLI🌱"
+        }
+      },
+      {
+        "tag": "#R2YL92C2",
+        "rank": 175,
+        "trophies": 31762,
+        "name": "Flare| 𝓾𝓻𝓲💫",
+        "club": {
+          "name": "悪魔の小瓶"
+        }
+      },
+      {
+        "tag": "#8U8LJVVR",
+        "rank": 176,
+        "trophies": 31720,
+        "name": "テラーーー‼️",
+        "club": {
+          "name": "バトロワガチ勢‼️"
+        }
+      },
+      {
+        "tag": "#8RQVLRVCG",
+        "rank": 177,
+        "trophies": 31706,
+        "name": "Aspire/Sea❦Urch",
+        "club": {
+          "name": "みみみみミント！"
+        }
+      },
+      {
+        "tag": "#2QQ8VLQRC",
+        "rank": 178,
+        "trophies": 31703,
+        "name": "俺知的ヤンキーやしwwwwww",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#2CQYJGP",
+        "rank": 179,
+        "trophies": 31682,
+        "name": "しゅとちも❄",
+        "club": {
+          "name": "パワーアップした吉野家"
+        }
+      },
+      {
+        "tag": "#22CY2PJY",
+        "rank": 180,
+        "trophies": 31671,
+        "name": "Nyack",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#LLGJUU2L",
+        "rank": 181,
+        "trophies": 31659,
+        "name": "SEA|Setuna♪初志貫徹",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#8CR20V2Y2",
+        "rank": 182,
+        "trophies": 31622,
+        "name": "➹𝐑𝐀𝐍さとし➷",
+        "club": {
+          "name": "アットホーム(量より質)"
+        }
+      },
+      {
+        "tag": "#J0PP8UCV",
+        "rank": 183,
+        "trophies": 31611,
+        "name": "ゆきーたさん7",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#82QGUPU",
+        "rank": 184,
+        "trophies": 31595,
+        "name": "Hagex the beast",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#8080LR2P",
+        "rank": 185,
+        "trophies": 31594,
+        "name": "IV",
+        "club": null
+      },
+      {
+        "tag": "#228J2PPPG",
+        "rank": 186,
+        "trophies": 31584,
+        "name": "FYG | cram",
+        "club": {
+          "name": "てんちによん"
+        }
+      },
+      {
+        "tag": "#Q29C2VY9",
+        "rank": 187,
+        "trophies": 31582,
+        "name": "今日ﾓ誰ｶﾆ甘ｴﾀｲʕ•̫͡•",
+        "club": {
+          "name": "NOVA assassinJP"
+        }
+      },
+      {
+        "tag": "#8C09GRUV8",
+        "rank": 188,
+        "trophies": 31580,
+        "name": "マッシュウルフ",
+        "club": {
+          "name": "日本のミカタ"
+        }
+      },
+      {
+        "tag": "#U0989JGY",
+        "rank": 189,
+        "trophies": 31576,
+        "name": "ごきげんななめなももちゃん",
+        "club": {
+          "name": "レッサーダックス"
+        }
+      },
+      {
+        "tag": "#2RCJJ2L2G",
+        "rank": 190,
+        "trophies": 31574,
+        "name": "♧Rumon|瑠門♧",
+        "club": {
+          "name": "バトロワ研究室"
+        }
+      },
+      {
+        "tag": "#2PJC29L2G",
+        "rank": 191,
+        "trophies": 31541,
+        "name": "おちょちょ🍺シャキーン",
+        "club": {
+          "name": "ブロスタ女学園"
+        }
+      },
+      {
+        "tag": "#2PJGJY2J2",
+        "rank": 192,
+        "trophies": 31530,
+        "name": "\"̰裏͛\"̰生徒会安房水産",
+        "club": null
+      },
+      {
+        "tag": "#2R882QP82",
+        "rank": 193,
+        "trophies": 31521,
+        "name": "⋆͛‪‪❥SNIPEE❧",
+        "club": {
+          "name": "イナズマジャパン⚡️"
+        }
+      },
+      {
+        "tag": "#P2Y9GUY8",
+        "rank": 194,
+        "trophies": 31510,
+        "name": "➹𝐑𝐀𝐍つばさ➷",
+        "club": {
+          "name": "Emperor"
+        }
+      },
+      {
+        "tag": "#20JQCG9CJ",
+        "rank": 195,
+        "trophies": 31492,
+        "name": "S̸weet┃❦チョコ❦",
+        "club": {
+          "name": "どーじょー"
+        }
+      },
+      {
+        "tag": "#P2CGQJYYV",
+        "rank": 196,
+        "trophies": 31486,
+        "name": "“GB\"Šakutoń",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#2G9QL8U8R",
+        "rank": 197,
+        "trophies": 31477,
+        "name": "T-Guys|Yamanoi",
+        "club": null
+      },
+      {
+        "tag": "#822RJVRRV",
+        "rank": 198,
+        "trophies": 31457,
+        "name": "”GB”Šotachî🗿🗿",
+        "club": {
+          "name": "Grøwth Bräwlërs"
+        }
+      },
+      {
+        "tag": "#2V2099R0L",
+        "rank": 199,
+        "trophies": 31447,
+        "name": "D.C | Peko",
+        "club": {
+          "name": "Dream Club"
+        }
+      },
+      {
+        "tag": "#92C9Q98L",
+        "rank": 200,
+        "trophies": 31432,
+        "name": "JUP|おやすみ",
+        "club": {
+          "name": "てんちによん"
+        }
+      }
+    ]
+  }
+}

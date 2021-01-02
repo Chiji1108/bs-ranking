@@ -1,0 +1,953 @@
+{
+  "data": {
+    "statistic": {
+      "records": {
+        "sumOfWinLoss": {
+          "content": "21勝4敗",
+          "caption": "直近25戦",
+          "grade": "GREAT",
+          "staged": false
+        },
+        "winningPercentage": {
+          "content": "84%",
+          "caption": "勝率",
+          "grade": "GOOD",
+          "staged": false
+        },
+        "winningStreak": {
+          "content": "10",
+          "caption": "連勝中",
+          "grade": "SOSO",
+          "staged": false
+        }
+      },
+      "battlelogs": [
+        {
+          "battleTime": "2020-12-26T09:15:48.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#U2VYVL8P",
+              "brawler": {
+                "name": "Piper",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Piper.png"
+              }
+            },
+            {
+              "tag": "#R0RYUL2C",
+              "brawler": {
+                "name": "Carl",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Carl.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Colt",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Colt.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T09:07:20.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#U2VYVL8P",
+              "brawler": {
+                "name": "Piper",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Piper.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Colt",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Colt.png"
+              }
+            },
+            {
+              "tag": "#R0RYUL2C",
+              "brawler": {
+                "name": "Carl",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Carl.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T08:59:27.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#U2VYVL8P",
+              "brawler": {
+                "name": "Piper",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Piper.png"
+              }
+            },
+            {
+              "tag": "#R0RYUL2C",
+              "brawler": {
+                "name": "Carl",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Carl.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Colt",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Colt.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T08:51:04.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#U2VYVL8P",
+              "brawler": {
+                "name": "Piper",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Piper.png"
+              }
+            },
+            {
+              "tag": "#R0RYUL2C",
+              "brawler": {
+                "name": "Carl",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Carl.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Colt",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Colt.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T08:45:20.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#U2VYVL8P",
+              "brawler": {
+                "name": "Sandy",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Sandy.png"
+              }
+            },
+            {
+              "tag": "#R0RYUL2C",
+              "brawler": {
+                "name": "Max",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Max.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Piper",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Piper.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T08:28:19.000Z",
+          "event": {
+            "map": {
+              "name": "Deathcap Trap",
+              "imageUrl": "https://cdn.starlist.pro/map/Deathcap-Trap.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#J29U0Q2Q",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            },
+            {
+              "tag": "#RY09QJGY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:59:06.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Bibi",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bibi.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:57:31.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Bibi",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bibi.png"
+              }
+            },
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:56:07.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Bibi",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bibi.png"
+              }
+            },
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:55:18.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Bibi",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bibi.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:53:45.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "defeat",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Leon",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Leon.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:50:40.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Mortis",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Mortis.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:49:01.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Mortis",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Mortis.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:45:52.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "defeat",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Mortis",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Mortis.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:43:13.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Dynamike",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Dynamike.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:41:54.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Dynamike",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Dynamike.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:39:26.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#20YUJVU2J",
+              "brawler": {
+                "name": "Byron",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Byron.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Dynamike",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Dynamike.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:35:44.000Z",
+          "event": {
+            "map": {
+              "name": "Corner Case",
+              "imageUrl": "https://cdn.starlist.pro/map/Corner-Case.png"
+            },
+            "mode": {
+              "name": "Gem Grab",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Gem-Grab.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#PL8RGUY9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Edgar",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Edgar.png"
+              }
+            },
+            {
+              "tag": "#88VQJL9G0",
+              "brawler": {
+                "name": "Jacky",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Jacky.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:16:34.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Penny",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Penny.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:12:51.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "defeat",
+          "picks": [
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:09:39.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:06:41.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "defeat",
+          "picks": [
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            },
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:04:13.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            },
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T06:01:07.000Z",
+          "event": {
+            "map": {
+              "name": "Shooting Star",
+              "imageUrl": "https://cdn.starlist.pro/map/Shooting-Star.png"
+            },
+            "mode": {
+              "name": "Bounty",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Bounty.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#UGC9GUYY",
+              "brawler": {
+                "name": "Tick",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Tick.png"
+              }
+            },
+            {
+              "tag": "#V8QPC0V9",
+              "brawler": {
+                "name": "Nani",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Nani.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Bo",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Bo.png"
+              }
+            }
+          ]
+        },
+        {
+          "battleTime": "2020-12-26T05:54:57.000Z",
+          "event": {
+            "map": {
+              "name": "Bank Shot",
+              "imageUrl": "https://cdn.starlist.pro/map/Bank-Shot.png"
+            },
+            "mode": {
+              "name": "Brawl Ball",
+              "imageUrl": "https://cdn.starlist.pro/gamemode/Brawl-Ball.png"
+            }
+          },
+          "result": "victory",
+          "picks": [
+            {
+              "tag": "#CJJP2RQ9",
+              "brawler": {
+                "name": "Poco",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Poco.png"
+              }
+            },
+            {
+              "tag": "#V8JV2L8P",
+              "brawler": {
+                "name": "Jacky",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Jacky.png"
+              }
+            },
+            {
+              "tag": "#JRQ9P80G",
+              "brawler": {
+                "name": "Frank",
+                "imageUrl": "https://cdn.starlist.pro/brawler-bs/Frank.png"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
