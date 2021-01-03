@@ -7,16 +7,17 @@ export interface RecordsProps {
 }
 
 export default memo(function Records({ records }: RecordsProps) {
-  const items = Object.values(records).map((record) => (
+  const items = Object.entries(records).map(([key, value]) => (
     <DisplayBox
+      key={key}
       content={
-        <DisplayBoxContent grade={record.grade as Grade} className="text-sm">
-          {record.content}
+        <DisplayBoxContent grade={value.grade as Grade} className="text-sm">
+          {value.content}
         </DisplayBoxContent>
       }
       caption={
         <DisplayBoxCaption className="text-xs">
-          {record.caption}
+          {value.caption}
         </DisplayBoxCaption>
       }
     />

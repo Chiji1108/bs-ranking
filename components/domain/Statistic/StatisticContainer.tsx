@@ -1,7 +1,7 @@
 //TODO
 import { gql, useQuery } from "@apollo/client";
 import { Battlelog, Record } from "../../../graphql";
-import data from "../../mock/statistic.json";
+import dataJson from "../../mock/statistic.json";
 import Battlelogs from "./Battlelogs";
 import LatestBattlelog from "./LatestBattlelog";
 import Records from "./Records";
@@ -74,14 +74,20 @@ export default function StatisticContainer({
   playerTag,
   outputType,
 }: StatisticContainerProps) {
-  const { loading, error, data } = useQuery<StatisticData, StatisticVars>(
-    GET_STATISTIC,
-    { variables: { playerTag: playerTag } }
-  );
+  // const { loading, error, data } = useQuery<StatisticData, StatisticVars>(
+  //   GET_STATISTIC,
+  //   { variables: { playerTag: playerTag } }
+  // );
 
-  if (loading) return <p>ローディング中</p>;
-  if (error) return <p>{error.message}</p>;
-  if (!data) return <p>データ無し</p>;
+  // if (loading) return <p>ローディング中</p>;
+  // if (error) {
+  //   console.log(error);
+  //   return <p>{error.message}</p>;
+  // }
+  // if (!data) return <p>データ無し</p>;
+  // console.log(data);
+
+  const data = dataJson.data;
 
   switch (outputType) {
     case "DESCRIPTION":

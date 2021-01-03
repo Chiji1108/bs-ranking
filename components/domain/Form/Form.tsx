@@ -1,6 +1,6 @@
 import { useReducer, createContext, Reducer, ReactNode, Dispatch } from "react";
 import { Player } from "../../../graphql";
-import { BrawlerOptionsContainer } from "../BrawlerOptions";
+import { BrawlerSelectContainer } from "../BrawlerSelect";
 import { RankingContainer } from "../Ranking";
 
 export interface State {
@@ -59,14 +59,6 @@ export const FormReducerContext = createContext<{
   dispatch: Dispatch<Action>;
 }>({ state: initialState, dispatch: () => null });
 
-const brawlerIdReducer = (value: string): number | "" => {
-  if (value == "") {
-    return value;
-  } else {
-    return Number(value);
-  }
-};
-
 export default function Form() {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { countryCode, brawlerId } = state;
@@ -88,23 +80,8 @@ export default function Form() {
           <option value="kr">🇰🇷韓国</option>
         </optgroup>
       </select>
-      <select
-        value={brawlerId}
-        onChange={(event) =>
-          dispatch({
-            type: ActionType.CHANGE_BRAWLER,
-            payload: {
-              ...state,
-              brawlerId: brawlerIdReducer(event.target.value),
-            },
-          })
-        }
-      >
-        <option value="">合計トロフィー</option>
-        <optgroup label="キャラ別">
-          <BrawlerOptionsContainer />
-        </optgroup>
-      </select>
+      <BrawlerSelectContainer />
+
       <FormReducerContext.Provider value={{ state, dispatch }}>
         <RankingContainer countryCode={countryCode} brawlerId={brawlerId} />
       </FormReducerContext.Provider>
