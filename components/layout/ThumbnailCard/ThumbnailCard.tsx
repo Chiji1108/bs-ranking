@@ -1,4 +1,4 @@
-import { Key, ReactElement, memo } from "react";
+import { ReactElement, memo } from "react";
 import classNames from "classnames";
 
 export type ThumbnailCardProps = {
@@ -16,6 +16,7 @@ export default memo(function ThumbnailCard({
   className,
 }: ThumbnailCardProps) {
   return (
+    // TODO: inline-blockを外してflex-colがかかるようにする
     <div className={classNames("relative inline-block mb-1", className)}>
       {content}
       <div className="absolute -bottom-1 right-1">{caption}</div>

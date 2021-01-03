@@ -7,6 +7,7 @@ export type ListItemProps = {
   description: ReactElement;
   thumbnail: ReactElement;
   titleWidth: number;
+  titleHeight: number;
   children?: never;
   className?: string;
 };
@@ -17,6 +18,7 @@ export default memo(function ListItem({
   description,
   thumbnail,
   titleWidth,
+  titleHeight,
   className,
 }: ListItemProps) {
   return (
@@ -36,18 +38,18 @@ export default memo(function ListItem({
     //   </div>
     //   <div className={styles.thumbnail}>{thumbnail}</div>
     // </li>
-    <li className={classNames("flex", "flex-nowrap", "space-x-3", className)}>
-      <div>{avatar}</div>
+    <li className={classNames("flex flex-nowrap space-x-3", className)}>
+      <div className="w-10">{avatar}</div>
       <div>
         <div
-          style={{ width: titleWidth }}
-          className="overflow-x-scroll overflow-y-visible"
+          style={{ width: titleWidth, height: titleHeight }}
+          className="overflow-x-auto"
         >
           {title}
         </div>
         <div className="mt-1.5">{description}</div>
       </div>
-      <div className="overflow-x-scroll overflow-y-visible">{thumbnail}</div>
+      <div className="flex-1">{thumbnail}</div>
     </li>
   );
 });

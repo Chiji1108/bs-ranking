@@ -2,19 +2,18 @@ import { Battlelog } from "../../graphql";
 import {
   ThumbnailCard,
   ThumbnailCardContent,
-  ThumbnailCardGroup,
   ImageWrapper,
   Image,
   ThumbnailCardCaption,
-  AvatarGroup,
   Avatar,
   Badge,
 } from "../layout";
 import { LazyLoad } from "../lib/LazyLoad";
 import { decorationColorReducer, battleTimeReducer } from "../util";
-import InfiniteScroll from "react-infinite-scroller";
-import { useState, memo } from "react";
+import { memo } from "react";
 import Skeleton from "react-loading-skeleton";
+import { FixedSizeList, ListChildComponentProps, areEqual } from "react-window";
+import AutoSizer from "react-virtualized-auto-sizer";
 
 export interface BattlelogsProps {
   battlelogs: Array<Battlelog>;
@@ -23,7 +22,7 @@ export interface BattlelogsProps {
 //TODO
 const mapImage = {
   width: 120,
-  height: 64,
+  height: 66,
 };
 
 const modeIcon = {
@@ -32,29 +31,17 @@ const modeIcon = {
 };
 
 export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
-  const [loadedBattlelogs, setLoadedBattlelogs] = useState<Array<Battlelog>>(
-    []
-  );
-  const [hasMore, setMore] = useState(true);
-
-  const loadMore = () => {
-    if (loadedBattlelogs.length >= battlelogs.length) {
-      setMore(false);
-      return;
-    }
-    setLoadedBattlelogs((prev) => battlelogs.slice(0, prev.length + 10));
-  };
-  const loader = <Skeleton key={0} width={120} />; //TODO
-  const items = (
-    <ThumbnailCardGroup>
-      {loadedBattlelogs.map((battlelog) => (
+  //React.memo
+  const Column = memo(
+    ({ index, style }: ListChildComponentProps) => (
+      <div style={style}>
         <ThumbnailCard
-          key={battlelog.battleTime}
+          key={battlelogs[index].battleTime}
           content={
             <ThumbnailCardContent
-              decorationColor={decorationColorReducer(battlelog.result)}
+              decorationColor={decorationColorReducer(battlelogs[index].result)}
               image={
-                battlelog.event ? (
+                battlelogs[index].event ? (
                   <LazyLoad width={mapImage.width} height={mapImage.height}>
                     <ImageWrapper
                       width={mapImage.width}
@@ -69,11 +56,11 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
                               height: mapImage.height,
                             }}
                           >
-                            {battlelog.event.map.name}
+                            {battlelogs[index].event.map.name}
                           </div>
                         }
-                        src={battlelog.event.map.imageUrl}
-                        alt={battlelog.event.map.name}
+                        src={battlelogs[index].event.map.imageUrl}
+                        alt={battlelogs[index].event.map.name}
                         width={mapImage.width}
                         height={mapImage.height}
                         style={{
@@ -94,7 +81,7 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
           caption={
             <ThumbnailCardCaption
               content={
-                battlelog.event ? (
+                battlelogs[index].event ? (
                   <Badge
                     className="text-body"
                     icon={
@@ -102,8 +89,8 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
                         <Image
                           width={modeIcon.width}
                           height={modeIcon.height}
-                          src={battlelog.event.mode.imageUrl}
-                          alt={battlelog.event.mode.name}
+                          src={battlelogs[index].event.mode.imageUrl}
+                          alt={battlelogs[index].event.mode.name}
                           fallback={
                             <div
                               style={{
@@ -112,14 +99,14 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
                               }}
                               className="bg-gray-400 flex items-center justify-start text-xs whitespace-nowrap overflow-x-auto"
                             >
-                              {battlelog.event.mode.name}
+                              {battlelogs[index].event.mode.name}
                             </div>
                           }
                         />
                       </LazyLoad>
                     }
                   >
-                    {battlelog.event.map.name}
+                    {battlelogs[index].event.map.name}
                   </Badge> //TODO icon
                 ) : (
                   <div>イベントデータ無し</div>
@@ -127,7 +114,7 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
               }
               badge={
                 <div className="flex flex-row-reverse flex-nowrap space-x-reverse -space-x-0.5">
-                  {battlelog.picks.map((pick) => (
+                  {battlelogs[index].picks.map((pick) => (
                     <Avatar
                       key={pick.tag}
                       src={pick.brawler.imageUrl}
@@ -141,24 +128,30 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
           }
           badge={
             <Badge className="text-body-muted">
-              {battleTimeReducer(battlelog.battleTime)}
+              {battleTimeReducer(battlelogs[index].battleTime)}
             </Badge>
           }
         />
-      ))}
-    </ThumbnailCardGroup>
-  ); //TODO React.memo
+      </div>
+    ),
+    areEqual
+  );
 
   if (battlelogs.length == 0)
     return <div>直近25戦にランクマッチの戦闘データがありませんでした...</div>; //TODO
   return (
-    <InfiniteScroll
-      loadMore={loadMore}
-      hasMore={hasMore}
-      loader={loader}
-      useWindow={false}
-    >
-      {items}
-    </InfiniteScroll>
+    <AutoSizer>
+      {({ height, width }) => (
+        <FixedSizeList
+          height={height}
+          itemCount={battlelogs.length}
+          itemSize={mapImage.width + 10}
+          layout="horizontal"
+          width={width}
+        >
+          {Column}
+        </FixedSizeList>
+      )}
+    </AutoSizer>
   );
 });

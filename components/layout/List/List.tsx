@@ -11,8 +11,6 @@ export default memo(function List({ children, className }: ListProps) {
   return (
     <ul
       className={classNames(
-        "flex",
-        "flex-col",
         styles.container,
         // "space-y-2",
         // "divide-y",

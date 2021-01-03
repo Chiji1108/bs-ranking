@@ -12,7 +12,6 @@ export default memo(function DisplayBoxCaption({
       {...props}
       className={classNames(
         "text-body-muted",
-        "text-2xs",
         "leading-none",
         "font-light",
         "whitespace-nowrap",

@@ -6,7 +6,6 @@ import {
   ImageWrapper,
   Image,
   Badge,
-  AvatarGroup,
   Avatar,
 } from "../layout";
 import { LazyLoad } from "../lib";
@@ -15,7 +14,7 @@ import { memo } from "react";
 
 const mapImage = {
   width: 120,
-  height: 64,
+  height: 66,
 };
 
 const modeIcon = {

@@ -7,40 +7,19 @@ export interface RecordsProps {
 }
 
 export default memo(function Records({ records }: RecordsProps) {
-  return (
-    <div className="flex space-x-2">
-      <DisplayBox
-        content={
-          <DisplayBoxContent grade={records.sumOfWinLoss.grade as Grade}>
-            {records.sumOfWinLoss.content}
-          </DisplayBoxContent>
-        }
-        caption={
-          <DisplayBoxCaption>{records.sumOfWinLoss.caption}</DisplayBoxCaption>
-        }
-      />
-      <DisplayBox
-        content={
-          <DisplayBoxContent grade={records.winningPercentage.grade as Grade}>
-            {records.winningPercentage.content}
-          </DisplayBoxContent>
-        }
-        caption={
-          <DisplayBoxCaption>
-            {records.winningPercentage.caption}
-          </DisplayBoxCaption>
-        }
-      />
-      <DisplayBox
-        content={
-          <DisplayBoxContent grade={records.winningStreak.grade as Grade}>
-            {records.winningStreak.content}
-          </DisplayBoxContent>
-        }
-        caption={
-          <DisplayBoxCaption>{records.winningStreak.caption}</DisplayBoxCaption>
-        }
-      />
-    </div>
-  );
+  const items = Object.values(records).map((record) => (
+    <DisplayBox
+      content={
+        <DisplayBoxContent grade={record.grade as Grade} className="text-sm">
+          {record.content}
+        </DisplayBoxContent>
+      }
+      caption={
+        <DisplayBoxCaption className="text-xs">
+          {record.caption}
+        </DisplayBoxCaption>
+      }
+    />
+  ));
+  return <div className="flex space-x-2">{items}</div>;
 });

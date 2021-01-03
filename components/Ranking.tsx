@@ -34,37 +34,45 @@ export default memo(function Ranking({ players }: RankingProps) {
           key={player.tag}
           avatar={
             <DisplayBox
-              content={<DisplayBoxContent>{player.rank}</DisplayBoxContent>}
-              caption={<DisplayBoxCaption>{player.trophies}</DisplayBoxCaption>}
-              className="rounded p-1 bg-primary-light inline-block"
+              content={
+                <DisplayBoxContent className="text-xs">
+                  {player.rank}
+                </DisplayBoxContent>
+              }
+              caption={
+                <DisplayBoxCaption className="text-2xs">
+                  {player.trophies}
+                </DisplayBoxCaption>
+              }
+              className="rounded p-1 bg-primary-light"
             />
           }
           title={
             <DisplayBox
               content={
-                <DisplayBoxContent className="text-sm">
+                <DisplayBoxContent className="text-base">
                   {player.name}
                 </DisplayBoxContent>
               }
               caption={
                 player.club ? (
-                  <DisplayBoxCaption>{player.club.name}</DisplayBoxCaption>
+                  <DisplayBoxCaption className="text-xs">
+                    {player.club.name}
+                  </DisplayBoxCaption>
                 ) : undefined
               }
             />
           }
-          titleWidth={120}
+          titleWidth={138}
+          titleHeight={37}
           description={
             <StatisticContainer
               playerTag={player.tag}
-              outputType={"DESCRIPTION"}
+              outputType="DESCRIPTION"
             />
           }
           thumbnail={
-            <StatisticContainer
-              playerTag={player.tag}
-              outputType={"THUMBNAIL"}
-            />
+            <StatisticContainer playerTag={player.tag} outputType="THUMBNAIL" />
           }
         />
       ))}

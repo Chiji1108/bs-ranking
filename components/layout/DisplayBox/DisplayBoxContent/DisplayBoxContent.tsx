@@ -19,7 +19,6 @@ export default memo(function DisplayBoxContent({
     <h3
       {...props}
       className={classNames(
-        "text-xs",
         "text-body",
         "font-bold",
         "whitespace-nowrap",
