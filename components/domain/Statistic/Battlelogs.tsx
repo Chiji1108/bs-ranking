@@ -1,4 +1,4 @@
-import { Battlelog } from "../../graphql";
+import { Battlelog } from "../../../graphql";
 import {
   ThumbnailCard,
   ThumbnailCardContent,
@@ -7,9 +7,9 @@ import {
   ThumbnailCardCaption,
   Avatar,
   Badge,
-} from "../layout";
-import { LazyLoad } from "../lib/LazyLoad";
-import { decorationColorReducer, battleTimeReducer } from "../util";
+} from "../../layout";
+import { LazyLoad } from "../../lib/LazyLoad";
+import { decorationColorReducer, battleTimeReducer } from "../../util";
 import { memo } from "react";
 import Skeleton from "react-loading-skeleton";
 import { FixedSizeList, ListChildComponentProps, areEqual } from "react-window";

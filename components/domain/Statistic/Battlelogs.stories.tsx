@@ -1,10 +1,10 @@
 import { Meta, Story } from "@storybook/react";
 import Battlelogs, { BattlelogsProps } from "./Battlelogs";
 
-import data from "../mock/statistic.json";
+import data from "../../mock/statistic.json";
 
 export default {
-  title: "Battlelogs",
+  title: "domain/Battlelogs",
   component: Battlelogs,
 } as Meta;
 

@@ -4,27 +4,36 @@ import {
   DisplayBoxContent,
   List,
   ListItem,
-} from "./layout";
-import { Player } from "../graphql";
-import { StatisticContainer } from "./Statistic";
+} from "../../layout";
+import { Player } from "../../../graphql";
+import { StatisticContainer } from "../Statistic";
 import InfiniteScroll from "react-infinite-scroller";
-import { useState, memo } from "react";
+import { useContext, memo } from "react";
 import Skeleton from "react-loading-skeleton";
+import { FormReducerContext, ActionType } from "../Form";
 
 export type RankingProps = {
   players: Array<Player>;
 };
 
 export default memo(function Ranking({ players }: RankingProps) {
-  const [loadedPlayers, setLoadedPlayers] = useState<Array<Player>>([]);
-  const [hasMore, setMore] = useState(true);
-
+  const { state, dispatch } = useContext(FormReducerContext);
+  const { loadedPlayers, hasMore } = state;
   const loadMore = () => {
     if (loadedPlayers.length >= players.length) {
-      setMore(false);
+      dispatch({
+        type: ActionType.SET_MORE,
+        payload: { ...state, hasMore: false },
+      });
       return;
     }
-    setLoadedPlayers((prev) => players.slice(0, prev.length + 10));
+    dispatch({
+      type: ActionType.SET_PLAYERS,
+      payload: {
+        ...state,
+        loadedPlayers: players.slice(0, loadedPlayers.length + 10),
+      },
+    });
   };
   const loader = <Skeleton key={0} height={80} />; //TODO
   const items = (

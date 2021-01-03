@@ -1,5 +1,5 @@
-import { Grade, Record } from "../../graphql";
-import { DisplayBox, DisplayBoxCaption, DisplayBoxContent } from "../layout";
+import { Grade, Record } from "../../../graphql";
+import { DisplayBox, DisplayBoxCaption, DisplayBoxContent } from "../../layout";
 import { memo } from "react";
 
 export interface RecordsProps {

@@ -1,4 +1,4 @@
-import { Battlelog } from "../../graphql";
+import { Battlelog } from "../../../graphql";
 import {
   ThumbnailCard,
   ThumbnailCardContent,
@@ -7,9 +7,9 @@ import {
   Image,
   Badge,
   Avatar,
-} from "../layout";
-import { LazyLoad } from "../lib";
-import { decorationColorReducer, battleTimeReducer } from "../util";
+} from "../../layout";
+import { LazyLoad } from "../../lib";
+import { decorationColorReducer, battleTimeReducer } from "../../util";
 import { memo } from "react";
 
 const mapImage = {

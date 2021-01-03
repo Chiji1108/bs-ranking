@@ -1,10 +1,10 @@
 import { Meta, Story } from "@storybook/react";
 
-import data from "../mock/statistic.json";
+import data from "../../mock/statistic.json";
 import Records, { RecordsProps } from "./Records";
 
 export default {
-  title: "Records",
+  title: "domain/Records",
   component: Records,
 } as Meta;
 
