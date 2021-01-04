@@ -6,7 +6,7 @@ export type ListItemProps = {
   title: ReactElement;
   description: ReactElement;
   thumbnail: ReactElement;
-  titleWidth: number;
+  width: number;
   titleHeight: number;
   children?: never;
   className?: string;
@@ -17,7 +17,7 @@ export default memo(function ListItem({
   title,
   description,
   thumbnail,
-  titleWidth,
+  width,
   titleHeight,
   className,
 }: ListItemProps) {
@@ -40,9 +40,9 @@ export default memo(function ListItem({
     // </li>
     <li className={classNames("flex flex-nowrap space-x-3", className)}>
       <div className="w-10">{avatar}</div>
-      <div>
+      <div style={{ width: width }}>
         <div
-          style={{ width: titleWidth, height: titleHeight }}
+          style={{ width: width, height: titleHeight }}
           className="overflow-x-auto"
         >
           {title}

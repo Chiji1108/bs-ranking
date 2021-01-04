@@ -1,5 +1,6 @@
 import { useReducer, createContext, Reducer, ReactNode, Dispatch } from "react";
 import { Player } from "../../../graphql";
+import { Select } from "../../ui";
 import { BrawlerSelectContainer } from "../BrawlerSelect";
 import { RankingContainer } from "../Ranking";
 
@@ -63,26 +64,38 @@ export default function Form() {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { countryCode, brawlerId } = state;
   return (
-    <div>
-      <h1>Ranking</h1>
-      <select
-        value={countryCode}
-        onChange={(event) =>
-          dispatch({
-            type: ActionType.CHANGE_COUNTRY,
-            payload: { ...state, countryCode: event.target.value },
-          })
-        }
-      >
-        <option value="global">グローバル</option>
-        <optgroup label="ローカル">
-          <option value="jp">🇯🇵日本</option>
-          <option value="kr">🇰🇷韓国</option>
-        </optgroup>
-      </select>
-      <BrawlerSelectContainer />
-
+    <div className="p-1.5">
       <FormReducerContext.Provider value={{ state, dispatch }}>
+        <div className="text-body space-x-2 mb-3 ml-1 overflow-x-auto flex flex-nowrap items-center">
+          <Select
+            value={countryCode}
+            onChange={(event) =>
+              dispatch({
+                type: ActionType.CHANGE_COUNTRY,
+                payload: { ...state, countryCode: event.target.value },
+              })
+            }
+          >
+            <option value="global">グローバル</option>
+            <optgroup label="ローカル">
+              <option value="jp">🇯🇵日本</option>
+              <option value="kr">🇰🇷韓国</option>
+              <option value="cn">🇨🇳中国</option>
+              <option value="tw">🇹🇼台湾</option>
+              <option value="es">🇪🇸スペイン</option>
+              <option value="fr">🇫🇷フランス</option>
+              <option value="sg">🇸🇬シンガポール</option>
+              <option value="us">🇺🇸アメリカ</option>
+              <option value="ca">🇨🇦カナダ</option>
+              <option value="br">🇧🇷ブラジル</option>
+              <option value="dk">🇩🇰デンマーク</option>
+              <option value="gb">🇬🇧イギリス</option>
+              <option value="my">🇲🇾マレーシア</option>
+            </optgroup>
+          </Select>
+          <BrawlerSelectContainer />
+        </div>
+
         <RankingContainer countryCode={countryCode} brawlerId={brawlerId} />
       </FormReducerContext.Provider>
     </div>

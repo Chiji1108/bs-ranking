@@ -11,6 +11,7 @@ import InfiniteScroll from "react-infinite-scroller";
 import { useContext, memo } from "react";
 import Skeleton from "react-loading-skeleton";
 import { FormReducerContext, ActionType } from "../Form";
+import cn from "classnames";
 
 export type RankingProps = {
   players: Array<Player>;
@@ -44,7 +45,7 @@ export default memo(function Ranking({ players }: RankingProps) {
           avatar={
             <DisplayBox
               content={
-                <DisplayBoxContent className="text-xs">
+                <DisplayBoxContent className="text-xs text-body">
                   {player.rank}
                 </DisplayBoxContent>
               }
@@ -53,13 +54,17 @@ export default memo(function Ranking({ players }: RankingProps) {
                   {player.trophies}
                 </DisplayBoxCaption>
               }
-              className="rounded p-1 bg-primary-light"
+              className={cn("rounded p-1 bg-primary-light", {
+                "ring-2 ring-medal-gold": player.rank == 1,
+                "ring-2 ring-medal-silver": player.rank == 2,
+                "ring-2 ring-medal-bronze": player.rank == 3,
+              })}
             />
           }
           title={
             <DisplayBox
               content={
-                <DisplayBoxContent className="text-base">
+                <DisplayBoxContent className="text-base text-body">
                   {player.name}
                 </DisplayBoxContent>
               }
@@ -72,7 +77,7 @@ export default memo(function Ranking({ players }: RankingProps) {
               }
             />
           }
-          titleWidth={138}
+          width={142}
           titleHeight={37}
           description={
             <StatisticContainer

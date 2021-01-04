@@ -1,1 +1,1 @@
-export type Grade = "GREAT" | "GOOD" | "SOSO" | "BAD";
+export type Grade = "GOD" | "GREAT" | "GOOD" | "SOSO" | "BAD";

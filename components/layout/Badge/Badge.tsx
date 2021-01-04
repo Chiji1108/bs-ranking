@@ -16,7 +16,12 @@ export default memo(function Badge({ children, icon, className }: BadgeProps) {
       )}
     >
       {icon && <div className="mr-1">{icon}</div>}
-      {children}
+      <div
+        style={{ maxWidth: 72 }}
+        className="whitespace-nowrap overflow-x-auto"
+      >
+        {children}
+      </div>
     </div>
   );
 });

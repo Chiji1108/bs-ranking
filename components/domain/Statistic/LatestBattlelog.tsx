@@ -30,7 +30,11 @@ export default memo(function LatestBattlelog({
   battlelog,
 }: LatestBattlelogProps) {
   if (!battlelog)
-    return <div>直近25戦にランクマッチの戦闘データがありませんでした...</div>;
+    return (
+      <p className="text-body-muted text-xs">
+        直近25戦にランクマッチはありませんでした
+      </p>
+    );
   return (
     <ThumbnailCard
       content={

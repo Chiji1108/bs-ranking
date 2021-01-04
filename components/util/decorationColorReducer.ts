@@ -1,16 +1,17 @@
-import { Color } from "../../styles";
+import config from "../../tailwind.config";
 
 const decorationColorReducer = (
-  result: "victory" | "defeat" | "draw" | string
+  result: "victory" | "defeat" | "draw" | string | undefined
 ) => {
   switch (result) {
     case "victory":
-      return Color.Game.VICTORY;
+      return config.theme.extend.colors.game.victory;
     case "defeat":
-      return Color.Game.DEFEAT;
+      return config.theme.extend.colors.game.defeat;
     case "draw":
+      return config.theme.extend.colors.game.draw;
     default:
-      return Color.Game.DRAW;
+      return config.theme.extend.colors.game.other;
   }
 };
 

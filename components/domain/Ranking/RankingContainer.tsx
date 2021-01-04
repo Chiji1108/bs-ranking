@@ -3,6 +3,7 @@ import Ranking from "./Ranking";
 import dataJson from "../../mock/players.json";
 import { gql, useQuery } from "@apollo/client";
 import { Player } from "../../../graphql";
+import Skeleton from "react-loading-skeleton";
 
 const GET_PLAYERS = gql`
   query getPlayers($countryCode: String, $brawlerId: ID) {
@@ -36,21 +37,19 @@ export default function RankingContainer({
   countryCode = "global",
   brawlerId = "",
 }: RankingContainerProps) {
-  console.log("RankingContainer rendering");
-  // const { loading, error, data } = useQuery<PlayersData, PlayersVars>(
-  //   GET_PLAYERS,
-  //   { variables: { countryCode, brawlerId } }
-  // );
+  // console.log("RankingContainer rendering");
+  const { loading, error, data } = useQuery<PlayersData, PlayersVars>(
+    GET_PLAYERS,
+    { variables: { countryCode, brawlerId } }
+  );
 
-  // if (loading) return <p>ローディング中</p>;
-  // if (error) {
-  //   console.log(error);
-  //   return <p>{error.message}</p>;
-  // }
-  // if (!data) return <p>データ無し</p>;
-  // console.log(data);
+  if (loading) return <Skeleton height={92} count={10} />;
+  if (error) {
+    return <p className="text-body">{error.message}</p>;
+  }
+  if (!data) return <p>データ無し</p>;
 
-  const data = dataJson.data;
+  // const data = dataJson.data;
 
   return <Ranking players={[...data.players]} />;
 }

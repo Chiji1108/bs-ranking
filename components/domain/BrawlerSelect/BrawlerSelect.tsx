@@ -1,6 +1,7 @@
 import { Brawler } from "../../../graphql";
 import { memo, useContext } from "react";
 import { FormReducerContext, ActionType } from "../Form";
+import { Select } from "../../ui";
 
 const brawlerIdReducer = (value: string): number | "" => {
   if (value == "") {
@@ -10,15 +11,15 @@ const brawlerIdReducer = (value: string): number | "" => {
   }
 };
 
-interface BrawlerOptionsProps {
+interface BrawlerSelectProps {
   brawlers: Array<Brawler>;
 }
 
-const BrawlerOptions = ({ brawlers }: BrawlerOptionsProps) => {
+const BrawlerSelect = ({ brawlers }: BrawlerSelectProps) => {
   const { state, dispatch } = useContext(FormReducerContext);
   const { brawlerId } = state;
   return (
-    <select
+    <Select
       value={brawlerId}
       onChange={(event) =>
         dispatch({
@@ -31,15 +32,15 @@ const BrawlerOptions = ({ brawlers }: BrawlerOptionsProps) => {
       }
     >
       <option value="">合計トロフィー</option>
-      <optgroup label="キャラ別">
+      <optgroup label="キャラ">
         {brawlers.map((brawler) => (
           <option key={brawler.id} value={brawler.id}>
             {brawler.name}
           </option>
         ))}
       </optgroup>
-    </select>
+    </Select>
   );
 };
 
-export default memo(BrawlerOptions);
+export default memo(BrawlerSelect);

@@ -1,7 +1,8 @@
 import { gql, useQuery } from "@apollo/client";
 import { Brawler } from "../../../graphql";
 import dataJson from "../../mock/brawlers.json";
-import BrawlerOptions from "./BrawlerSelect";
+import BrawlerSelect from "./BrawlerSelect";
+import Skeleton from "react-loading-skeleton";
 
 const GET_BRAWLERS = gql`
   query getBrawlers {
@@ -17,18 +18,21 @@ interface BrawlersData {
 }
 
 export default function BrawlerSelectContainer() {
-  console.log("BrawlerSelectContainer rendering");
-  // const { loading, error, data } = useQuery<BrawlersData>(GET_BRAWLERS);
+  // console.log("BrawlerSelectContainer rendering");
+  const { loading, error, data } = useQuery<BrawlersData>(GET_BRAWLERS);
 
-  // if (loading) return <p>ローディング中</p>;
-  // if (error) {
-  //   console.log(error);
-  //   return <p>{error.message}</p>;
-  // }
-  // if (!data) return <p>データ無し</p>;
-  // console.log(data);
+  if (loading)
+    return (
+      <div className="inline-block">
+        <Skeleton height={40} width={166} />
+      </div>
+    );
+  if (error) {
+    return <p className='text-body'>{error.message}</p>;
+  }
+  if (!data) return <p className="text-body">キャラデータの取得ができません</p>;
 
-  const data = dataJson.data;
+  // const data = dataJson.data;
 
-  return <BrawlerOptions brawlers={[...data.brawlers]} />;
+  return <BrawlerSelect brawlers={[...data.brawlers]} />;
 }
