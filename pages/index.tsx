@@ -5,7 +5,9 @@ import { BatchHttpLink } from "@apollo/link-batch-http";
 import { Hero } from "../components/layout";
 
 const client = new ApolloClient({
-  link: new BatchHttpLink({ uri: "http://localhost:4000" }), //TODO production
+  link: new BatchHttpLink({
+    uri: "https://asia-northeast1-bs-ranking.cloudfunctions.net/graphql",
+  }), //TODO production
   cache: new InMemoryCache(),
 });
 

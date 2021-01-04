@@ -1,7 +1,7 @@
 import config from "../../tailwind.config";
 
 const decorationColorReducer = (
-  result: "victory" | "defeat" | "draw" | string | undefined
+  result: "victory" | "defeat" | "draw" | string | undefined | null
 ) => {
   switch (result) {
     case "victory":
