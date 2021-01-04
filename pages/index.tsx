@@ -7,7 +7,7 @@ import { Hero } from "../components/layout";
 const client = new ApolloClient({
   link: new BatchHttpLink({
     uri: "https://asia-northeast1-bs-ranking.cloudfunctions.net/graphql",
-    credentials: "include",
+    // credentials: "include",
   }), //TODO production
   cache: new InMemoryCache(),
 });
