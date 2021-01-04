@@ -14,7 +14,7 @@ const client = new ApolloClient({
 
 export default function Home() {
   return (
-    <div className="bg-primary min-h-screen">
+    <>
       <Hero
         title={
           <>
@@ -36,7 +36,7 @@ export default function Home() {
           <>ランカー編成も見れます</>
         }
         thumbnail={<div />}
-        className="pt-32 pl-6 mb-20"
+        className="py-20 px-6 mt-12 mb-6"
       />
       <main>
         <ApolloProvider client={client}>
@@ -60,6 +60,6 @@ export default function Home() {
         </a>
         ）。
       </footer>
-    </div>
+    </>
   );
 }

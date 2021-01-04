@@ -16,7 +16,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head />
-        <body>
+        <body className="bg-primary min-h-screen">
           <Main />
           <NextScript />
           <script src="/__/firebase/8.2.1/firebase-app.js"></script>
