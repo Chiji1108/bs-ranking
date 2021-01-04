@@ -84,13 +84,13 @@ export default function Form() {
               <option value="tw">🇹🇼台湾</option>
               <option value="es">🇪🇸スペイン</option>
               <option value="fr">🇫🇷フランス</option>
-              <option value="sg">🇸🇬シンガポール</option>
+              {/* <option value="sg">🇸🇬シンガポール</option> */}
               <option value="us">🇺🇸アメリカ</option>
               <option value="ca">🇨🇦カナダ</option>
               <option value="br">🇧🇷ブラジル</option>
-              <option value="dk">🇩🇰デンマーク</option>
+              {/* <option value="dk">🇩🇰デンマーク</option> */}
               <option value="gb">🇬🇧イギリス</option>
-              <option value="my">🇲🇾マレーシア</option>
+              {/* <option value="my">🇲🇾マレーシア</option> */}
             </optgroup>
           </Select>
           <BrawlerSelectContainer />
