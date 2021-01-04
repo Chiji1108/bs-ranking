@@ -17,7 +17,7 @@ export default memo(function ThumbnailCard({
 }: ThumbnailCardProps) {
   return (
     // TODO: inline-blockを外してflex-colがかかるようにする
-    <div className={classNames("relative inline-block mb-1", className)}>
+    <div className={classNames("relative inline-block", className)}>
       {content}
       <div className="absolute -bottom-1 right-1">{caption}</div>
       <div className="absolute top-1 right-1">{badge}</div>
