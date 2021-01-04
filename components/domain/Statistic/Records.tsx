@@ -34,5 +34,5 @@ export default memo(function Records({ records }: RecordsProps) {
       />
     );
   });
-  return <div className="flex space-x-2">{items}</div>;
+  return <div className="flex space-x-2 mb-1">{items}</div>;
 });
