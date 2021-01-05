@@ -88,9 +88,9 @@ export default function Form() {
               <option value="us">🇺🇸アメリカ</option>
               <option value="ca">🇨🇦カナダ</option>
               <option value="br">🇧🇷ブラジル</option>
-              {/* <option value="dk">🇩🇰デンマーク</option> */}
+              <option value="dk">🇩🇰デンマーク</option>
               <option value="gb">🇬🇧イギリス</option>
-              {/* <option value="my">🇲🇾マレーシア</option> */}
+              <option value="my">🇲🇾マレーシア</option>
             </optgroup>
           </Select>
           <BrawlerSelectContainer />

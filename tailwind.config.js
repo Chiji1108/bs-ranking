@@ -14,6 +14,9 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
+    fontFamily: {
+      display: ["Noto Sans JP"],
+    },
     extend: {
       screens: {
         xs: "414px",

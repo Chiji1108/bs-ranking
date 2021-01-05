@@ -35,7 +35,7 @@ const Container = styled.div`
     transform: rotate(45deg);
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 15px;
     margin-top: -4px;
   }
 `;
@@ -50,7 +50,7 @@ const StyledSelect = styled.select`
   position: relative;
   z-index: 1;
   padding: 0 40px 0 10px;
-  border: 2px solid ${config.theme.extend.colors.body.DEFAULT};
+  border: 2px solid ${config.theme.extend.colors.body.muted};
   border-radius: 9999px;
 
   &:-moz-focusring {

@@ -36,7 +36,7 @@ export default function Home() {
           <>ランカー編成も見れます</>
         }
         thumbnail={<div />}
-        className="py-20 px-6 mt-12 mb-6"
+        className="py-20 px-3 mt-12 mb-6"
       />
       <main>
         <ApolloProvider client={client}>
