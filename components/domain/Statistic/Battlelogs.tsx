@@ -145,7 +145,7 @@ export default memo(function Battlelogs({
                       className={cn({
                         "ring-2 ring-primary-dark ring-opacity-100":
                           playerTag != pick.tag,
-                        "ring-2 ring-secondary ring-opacity-100":
+                        "ring-2 ring-body ring-opacity-100":
                           playerTag == pick.tag,
                       })}
                     />
