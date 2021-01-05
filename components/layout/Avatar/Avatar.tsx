@@ -19,7 +19,7 @@ export default memo(function Avatar({
   size,
   className,
 }: AvatarProps) {
-  const avatarClass = "rounded-full ring-primary-dark ring-2";
+  const avatarClass = "rounded-full";
   return (
     <LazyLoad width={size} height={size} circle>
       <Image
@@ -38,7 +38,9 @@ export default memo(function Avatar({
               "justify-start",
               "text-xs",
               "whitespace-nowrap",
-              "overflow-x-auto"
+              "overflow-x-auto",
+              "ring-2",
+              "ring-primary-dark"
             )}
           >
             {alt}

@@ -105,6 +105,11 @@ export default function StatisticContainer({
       }
     case "THUMBNAIL":
       // return <LatestBattlelog battlelog={latestBattlelog} />;
-      return <Battlelogs battlelogs={[...data.statistic.battlelogs]} />;
+      return (
+        <Battlelogs
+          battlelogs={[...data.statistic.battlelogs]}
+          playerTag={playerTag}
+        />
+      );
   }
 }

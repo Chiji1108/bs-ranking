@@ -14,9 +14,11 @@ import { memo } from "react";
 import Skeleton from "react-loading-skeleton";
 import { FixedSizeList, ListChildComponentProps, areEqual } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
+import cn from "classnames";
 
 export interface BattlelogsProps {
   battlelogs: Array<Battlelog>;
+  playerTag: string;
 }
 
 //TODO
@@ -30,7 +32,10 @@ const modeIcon = {
   height: 12,
 };
 
-export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
+export default memo(function Battlelogs({
+  battlelogs,
+  playerTag,
+}: BattlelogsProps) {
   const Column = memo(
     ({ index, style }: ListChildComponentProps) => (
       <div style={style}>
@@ -137,6 +142,12 @@ export default memo(function Battlelogs({ battlelogs }: BattlelogsProps) {
                       src={pick.brawler.imageUrl}
                       alt={pick.brawler.name}
                       size={16}
+                      className={cn({
+                        "ring-2 ring-primary-dark ring-opacity-100":
+                          playerTag != pick.tag,
+                        "ring-2 ring-secondary ring-opacity-100":
+                          playerTag == pick.tag,
+                      })}
                     />
                   ))}
                 </div>
