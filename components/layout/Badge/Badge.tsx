@@ -15,7 +15,7 @@ export default memo(function Badge({ children, icon, className }: BadgeProps) {
         className
       )}
     >
-      <div className="flex items-center mr-1">{icon}</div>
+      {icon && <div className="flex items-center mr-1">{icon}</div>}
       <div
         style={{ maxWidth: 72, height: 12 }}
         className="flex items-center whitespace-nowrap overflow-x-auto"
