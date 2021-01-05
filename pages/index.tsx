@@ -8,7 +8,8 @@ const client = new ApolloClient({
   link: new BatchHttpLink({
     uri: "https://asia-northeast1-bs-ranking.cloudfunctions.net/graphql",
     credentials: "include",
-  }), //TODO production
+    // uri: "http://localhost:4000",
+  }),
   cache: new InMemoryCache(),
 });
 

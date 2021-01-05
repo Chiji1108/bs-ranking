@@ -11,14 +11,14 @@ export default memo(function Badge({ children, icon, className }: BadgeProps) {
   return (
     <div
       className={classNames(
-        "bg-primary-dark rounded-full pl-2 pr-2 pt-1 pb-1 flex flex-nowrap items-center text-2xs font-light leading-none",
+        "bg-primary-dark rounded-full px-2 py-1 flex flex-nowrap items-center text-2xs font-light leading-none",
         className
       )}
     >
-      {icon && <div className="mr-1">{icon}</div>}
+      <div className="flex items-center mr-1">{icon}</div>
       <div
-        style={{ maxWidth: 72 }}
-        className="whitespace-nowrap overflow-x-auto"
+        style={{ maxWidth: 72, height: 12 }}
+        className="flex items-center whitespace-nowrap overflow-x-auto"
       >
         {children}
       </div>

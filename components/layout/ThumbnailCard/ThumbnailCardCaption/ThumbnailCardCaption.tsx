@@ -25,7 +25,7 @@ export default memo(function ThumbnailCardCaption({
       {...props}
     >
       {content}
-      <div className="absolute -top-3.5 right-1">{badge}</div>
+      <div className="absolute -top-4 right-1">{badge}</div>
     </div>
   );
 });

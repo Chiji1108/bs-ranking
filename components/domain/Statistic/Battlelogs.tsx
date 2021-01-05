@@ -135,19 +135,14 @@ export default memo(function Battlelogs({
                 )
               }
               badge={
-                <div className="flex flex-row-reverse flex-nowrap space-x-reverse -space-x-0.5">
+                <div className="flex flex-row-reverse flex-nowrap items-end space-x-reverse -space-x-0.5">
                   {battlelogs[index].picks.map((pick) => (
                     <Avatar
                       key={pick.tag}
                       src={pick.brawler.imageUrl}
                       alt={pick.brawler.name}
-                      size={16}
-                      className={cn({
-                        "ring-2 ring-primary-dark ring-opacity-100":
-                          playerTag != pick.tag,
-                        "ring-2 ring-body ring-opacity-100":
-                          playerTag == pick.tag,
-                      })}
+                      size={playerTag == pick.tag ? 20 : 16}
+                      className="ring-2 ring-primary-dark ring-opacity-100"
                     />
                   ))}
                 </div>
