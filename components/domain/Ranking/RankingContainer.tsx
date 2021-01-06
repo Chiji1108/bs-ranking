@@ -43,7 +43,7 @@ export default function RankingContainer({
     { variables: { countryCode, brawlerId } }
   );
 
-  if (loading) return <Skeleton height={92} count={10} />;
+  if (loading) return <Skeleton height={92} count={10} duration={0.6} />;
   if (error) {
     return <p className="text-body">{error.message}</p>;
   }

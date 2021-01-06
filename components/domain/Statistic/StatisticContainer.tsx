@@ -81,8 +81,9 @@ export default function StatisticContainer({
   );
 
   if (loading && outputType == "DESCRIPTION")
-    return <Skeleton width={142} height={32} />;
-  if (loading && outputType == "THUMBNAIL") return <Skeleton height={72} />;
+    return <Skeleton width={142} height={32} duration={0.6} />;
+  if (loading && outputType == "THUMBNAIL")
+    return <Skeleton height={72} duration={0.6} />;
   if (error) {
     return <p className="text-body">{error.message}</p>;
   }

@@ -24,11 +24,11 @@ export default function BrawlerSelectContainer() {
   if (loading)
     return (
       <div className="inline-block">
-        <Skeleton height={40} width={166} />
+        <Skeleton height={40} width={166} duration={0.6} />
       </div>
     );
   if (error) {
-    return <p className='text-body'>{error.message}</p>;
+    return <p className="text-body">{error.message}</p>;
   }
   if (!data) return <p className="text-body">キャラデータの取得ができません</p>;
 

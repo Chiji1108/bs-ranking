@@ -18,7 +18,14 @@ export default memo(function LazyLoad({
   return (
     <Lazy
       height={height}
-      placeholder={<Skeleton width={width} height={height} circle={circle} />}
+      placeholder={
+        <Skeleton
+          width={width}
+          height={height}
+          circle={circle}
+          duration={0.6}
+        />
+      }
     >
       {children}
     </Lazy>
