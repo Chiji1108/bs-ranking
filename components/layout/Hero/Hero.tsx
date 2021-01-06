@@ -20,7 +20,7 @@ export default memo(function Hero({
       <h1 className="text-body font-thin font-display text-5xl mb-2">
         {title}
       </h1>
-      <p className="text-body-muted font-light text-base">{description}</p>
+      <p className="text-body-muted font-light text-base ml-2">{description}</p>
     </section>
   );
 });
