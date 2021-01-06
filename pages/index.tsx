@@ -8,6 +8,7 @@ import "firebase/analytics";
 import { useEffect } from "react";
 
 const client = new ApolloClient({
+  // TODO: NODE_ENV === 'production'
   link: new BatchHttpLink({
     uri: "https://asia-northeast1-bs-ranking.cloudfunctions.net/graphql",
     credentials: "include",
@@ -16,7 +17,6 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export default function Home() {
   useEffect(() => {
     if (typeof window !== "undefined" && !firebase.apps.length) {

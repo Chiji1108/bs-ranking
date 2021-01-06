@@ -1,4 +1,4 @@
-//TODO
+//TODO: ListItemContainer
 import { gql, useQuery } from "@apollo/client";
 import Skeleton from "react-loading-skeleton";
 import { Battlelog, Record } from "../../../graphql";

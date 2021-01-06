@@ -21,7 +21,7 @@ export interface BattlelogsProps {
   playerTag: string;
 }
 
-//TODO
+//TODO: responsive
 const mapImage = {
   width: 120,
   height: 66,
@@ -129,7 +129,7 @@ export default memo(function Battlelogs({
                     }
                   >
                     {battlelogs[index].event.map.name}
-                  </Badge> //TODO icon
+                  </Badge>
                 ) : (
                   <Badge className="text-body">カスタムマップ</Badge>
                 )

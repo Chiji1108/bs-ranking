@@ -9,7 +9,7 @@ type ImageProps = JSX.IntrinsicElements["img"] & {
   children?: never;
   className?: string;
 };
-
+// TODO: use next/image
 export default memo(function Image({
   fallback,
   zoomed = false,

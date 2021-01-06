@@ -36,7 +36,7 @@ export default memo(function Ranking({ players }: RankingProps) {
       },
     });
   };
-  const loader = <Skeleton key={0} height={80} duration={0.6} />; //TODO
+  const loader = <Skeleton key={0} height={80} duration={0.6} />; //TODO: loader set
   const items = (
     <List>
       {loadedPlayers.map((player) => (

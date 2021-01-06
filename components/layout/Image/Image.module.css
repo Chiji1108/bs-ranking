@@ -2,8 +2,8 @@
   /* max-width: 125%; */
   transform: scale(1.1);
 }
-/* TODO */
 
+/* TODO: make public class */
 .grayBg {
   background-image: /* tint image */ linear-gradient(
       to right,

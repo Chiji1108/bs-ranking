@@ -107,7 +107,7 @@ export default memo(function LatestBattlelog({
                 }
               >
                 {battlelog.event.map.name}
-              </Badge> //TODO icon
+              </Badge> //TODO: object-contain
             ) : (
               <div>イベントデータ無し</div>
             )

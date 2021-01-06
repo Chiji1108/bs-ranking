@@ -1,5 +1,3 @@
-//TODO
-// import Image from "next/image";
 import { LazyLoad } from "../../lib/LazyLoad";
 import { Image } from "../Image";
 import classNames from "classnames";
