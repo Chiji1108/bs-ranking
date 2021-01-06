@@ -5,6 +5,7 @@ import { BatchHttpLink } from "@apollo/link-batch-http";
 import { Hero } from "../components/layout";
 import firebase from "firebase/app";
 import "firebase/analytics";
+import { useEffect } from "react";
 
 const client = new ApolloClient({
   link: new BatchHttpLink({
@@ -17,20 +18,23 @@ const client = new ApolloClient({
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBYhmVy5TkuhFDTAkD4hZF4BJPWFCEperw",
-  authDomain: "bs-ranking.firebaseapp.com",
-  projectId: "bs-ranking",
-  storageBucket: "bs-ranking.appspot.com",
-  messagingSenderId: "935819740593",
-  appId: "1:935819740593:web:5e1d0aec931e0e9f726990",
-  measurementId: "G-JBNYKR3SWB",
+  apiKey: "API_KEY",
+  authDomain: "PROJECT_ID.firebaseapp.com",
+  // databaseURL: "https://PROJECT_ID.firebaseio.com",
+  projectId: "PROJECT_ID",
+  storageBucket: "PROJECT_ID.appspot.com",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+  measurementId: "G-MEASUREMENT_ID",
 };
-if (typeof window !== "undefined" && !firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-}
 
 export default function Home() {
+  useEffect(() => {
+    if (typeof window !== "undefined" && !firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    }
+  }, []);
   return (
     <>
       <Hero
