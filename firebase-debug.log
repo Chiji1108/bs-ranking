@@ -1,0 +1,90 @@
+[debug] [2021-01-06T03:27:12.959Z] ----------------------------------------------------------------------
+[debug] [2021-01-06T03:27:12.961Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-01-06T03:27:12.961Z] CLI Version:   9.1.0
+[debug] [2021-01-06T03:27:12.961Z] Platform:      darwin
+[debug] [2021-01-06T03:27:12.961Z] Node Version:  v15.3.0
+[debug] [2021-01-06T03:27:13.010Z] Time:          Wed Jan 06 2021 12:27:12 GMT+0900 (Japan Standard Time)
+[debug] [2021-01-06T03:27:13.010Z] ----------------------------------------------------------------------
+[debug] [2021-01-06T03:27:13.010Z] 
+[debug] [2021-01-06T03:27:13.013Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-01-06T03:27:13.036Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-06T03:27:13.037Z] > authorizing via signed-in user
+[debug] [2021-01-06T03:27:13.037Z] [iam] checking project bs-ranking for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-01-06T03:27:13.039Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-06T03:27:13.039Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-06T03:27:13.542Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Wed, 06 Jan 2021 03:27:13 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:13.562Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bs-ranking:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-01-06T03:27:13.678Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-01-06T03:27:13.679Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-01-06T03:27:14.560Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 Jan 2021 03:27:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=576","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:14.562Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/bs-ranking  
+ 
+[debug] [2021-01-06T03:27:15.482Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 Jan 2021 03:27:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'bs-ranking'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-01-06T03:27:15.488Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-01-06T03:27:16.988Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 Jan 2021 03:27:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[bs-ranking]: beginning deploy... 
+[info] i  hosting[bs-ranking]: found 40 files in out 
+[debug] [2021-01-06T03:27:17.036Z] > refreshing access token with scopes: []
+[debug] [2021-01-06T03:27:17.036Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-06T03:27:17.038Z] [hosting] hash cache [b3V0] stored for 40 files
+[debug] [2021-01-06T03:27:17.039Z] [hosting][hash queue][FINAL] {"max":2,"min":0,"avg":0,"active":0,"complete":40,"success":40,"errored":0,"retried":0,"total":40,"elapsed":7}
+[debug] [2021-01-06T03:27:17.427Z] <<< HTTP RESPONSE 200 {"date":"Wed, 06 Jan 2021 03:27:17 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:17.443Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions/711bc09712a53c43:populateFiles [none]
+[debug] [2021-01-06T03:27:17.444Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions/711bc09712a53c43:populateFiles {"files":{"/404.html":"bdaf64f11672335ecd48eafdb24fe8c609faf74cc636d836361e62c7bd848e9b","/favicon.ico":"2d690cedf3d28159304676f7d24d41c974eb2d2e2acd1ab35da468d16515a5fe","/index.html":"d703c6bf6a395bac70cb5fb0cc53e5792e7e7f3a13bc13c3f0dbf6a435b29ff8","/_next/static/ATI_k4vUNu9QcBu07k2Mh/_buildManifest.js":"a9accf0f6a8aed2841949f3cb1cd9896f3522249e51d40a41ef2615397c91eb9","/_next/static/ATI_k4vUNu9QcBu07k2Mh/_ssgManifest.js":"9996234df9580e246cdf04d95b16ff4e5f27caa1f1be16f1512ada380796928b","/_next/static/ayEGH4iRPQ6vXbsIKWvIn/_buildManifest.js":"a9accf0f6a8aed2841949f3cb1cd9896f3522249e51d40a41ef2615397c91eb9","/_next/static/ayEGH4iRPQ6vXbsIKWvIn/_ssgManifest.js":"9996234df9580e246cdf04d95b16ff4e5f27caa1f1be16f1512ada380796928b","/_next/static/chunks/0.js":"6ddae16bac1011cb7e3ba18d324f06ce84ed651f5d63c11d3b2cbf66f1531de1","/_next/static/chunks/amp.js":"d7ed17aaf7d76e398a4eae5e5561a839eef26ef30820ea35a1b61fcd65a8ce5e","/_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.1a6bcf79d7450f9f3f7b.js":"e9c684d4bc0dbabab6cd0cc842869dbb51caff605494c2aeafd3dbc2f15dc4ca","/_next/static/chunks/framework.f783f7e0d786735fc5cd.js":"56fe49f9738afbf9b71f769ff2e75c9e01589dd278c6c366d548b15b10818bed","/_next/static/chunks/main-c3df8f6eb631de5c1d1e.js":"78b7de03a67113fafcbc4260c3a230e3a020b45682634ca5d1de4004ad127988","/_next/static/chunks/main.js":"3706c0732db6adc178e399bded3179153d1c0ec68d579b626efce1150cd7ea5b","/_next/static/chunks/polyfills-2b9679069218c94375cf.js":"b16f63928a34b3578080a7dd1be0c4dff560383c791ce3f607637cf713a2db72","/_next/static/chunks/polyfills.js":"0e8e079cf7a8dc8d0c6bcf7a7b10240cddae3881579dc9fa9a6e1d371d78ff05","/_next/static/chunks/react-refresh.js":"8daff43052ef2460764b6c87be80f31476eac76fb43f9faca99b02cee98c4f6d","/_next/static/chunks/webpack-95c2b224bccf352ee870.js":"12730b09a626e57b988eacbb33dec95c42d11445084d1e155f52c4f77b832a7e","/_next/static/chunks/webpack.js":"972021429486d79a542e73e13432aa9bbd60d0d69963b0a84775e7be9d931c4e","/_next/static/chunks/pages/_app-1ffc657a17e0b609eb79.js":"1ff03a590d64698d0f4336d2e2233d4a8ffae4f75ae7169fc736f86dbe1a1b64","/_next/static/chunks/pages/_app-f0dd293112e2bb07cde0.js":"1ff03a590d64698d0f4336d2e2233d4a8ffae4f75ae7169fc736f86dbe1a1b64","/_next/static/chunks/pages/_app.js":"c2c41fc23ced00d461b60b29c0b028b4ca81cc3c49773d980dd19bad5f1236ef","/_next/static/chunks/pages/_error-8cbeb3e7d0508f303923.js":"307cad9b377f371eb42eaf3d7b14ef0e1e0e25323ece1126fee01e12a1e7143f","/_next/static/chunks/pages/_error.js":"0e679fdaddbd01401c3ec29053b1036e60f538d684687c10c39953d760a20a82","/_next/static/chunks/pages/index-006f55bfab031afaa687.js":"9e8646f60dbe6879ccb07463d7e974c72ccd16a02277c660e4545521e61d4893","/_next/static/chunks/pages/index.js":"1c6f08b04aee3407cfa5cea50c6b3c86a6fa778c7ce6d43599c4fe055509d33c","/_next/static/chunks/pages/next/dist/pages/_error.js":"3e677504f66b0562bbc2ac642ccf19774e2e80a39a34fd92c3a433e0a6f2fa03","/_next/static/css/8d2c59e60dbdfb130480.css":"85c71cb675720cd9c0415d4c04892ad71679193063d3933e92fc1043454c2b6b","/_next/static/css/c9be409470b2e675c8af.css":"4ae8a5f7a399bb9e0a3a491f8f767f4e58fb87f131740a5871d8a3a641798c03","/_next/static/css/d15542b65877db049ae7.css":"b8d785ceef65f31acd466e1e428e21238f9488be6b5b7958635af590c4c6028f","/_next/static/development/_buildManifest.js":"98920e3f2585a05194a699f6f0b48270e35a535806b54e92b463af0652655eac","/_next/static/development/_ssgManifest.js":"9996234df9580e246cdf04d95b16ff4e5f27caa1f1be16f1512ada380796928b","/_next/static/webpack/18abe69bcf2d22cedfb6.hot-update.json":"01d044be2bf91c013923e93bbc0a30c7ba5828b1f59f0996a4ac591fd26547b5","/_next/static/webpack/1991a114b152a81e6e59.hot-update.json":"3259d6503ddf9c931eb40e517e65cc8c82d0f46fbfb1c0b49ff7d0695c2c9821","/_next/static/webpack/5d491c854cb7446dee9c.hot-update.json":"e9ffd5059220eb7b803dad30fa3414e04d3260b3c48f344366e1e3f3ef580511","/_next/static/webpack/b7afea3f0d02382f26b6.hot-update.json":"1d403d8cbe4b16a519289572667f15e325a9d0b4befe30444349c1cd86983a71","/_next/static/webpack/c0837fc6d9ffc77832a5.hot-update.json":"75f3482ee0bf792b632e2765c5466811db74248935f9d0b50247bf57e650a799","/_next/static/webpack/f778f9129d7fe220b5f4.hot-update.json":"ef80b3540fff101ef0acbb802e94882615a1fb55f4484c237cd1b5cc677ad950","/_next/static/webpack/pages/index.18abe69bcf2d22cedfb6.hot-update.js":"6a5436093acbb3174d43e2e29178413363dbebf458ecefd865c21ffeec4c5566","/_next/static/webpack/pages/index.1991a114b152a81e6e59.hot-update.js":"8583679f9a826fb785b28f2f8cc585c31917e05049d978868e07259292962c30","/_next/static/webpack/pages/index.f778f9129d7fe220b5f4.hot-update.js":"ba8c89b3185bd7036698aab25a3aacffe272a9b0dfca4ce4ceb1f9b5ea6aff7f"}}
+[debug] [2021-01-06T03:27:18.762Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions/711bc09712a53c43:populateFiles 200
+[debug] [2021-01-06T03:27:18.762Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions/711bc09712a53c43:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/bs-ranking/versions/711bc09712a53c43/files"}
+[debug] [2021-01-06T03:27:18.762Z] [hosting][populate queue][FINAL] {"max":1727,"min":1727,"avg":1727,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1727}
+[debug] [2021-01-06T03:27:18.762Z] [hosting] uploads queued: 0
+[debug] [2021-01-06T03:27:18.763Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1609903638763}
+[info] ✔  hosting[bs-ranking]: file upload complete 
+[debug] [2021-01-06T03:27:18.763Z] [hosting] deploy completed after 1773ms
+[debug] [2021-01-06T03:27:19.232Z] [
+  {
+    "config": {
+      "public": "out",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "bs-ranking"
+    },
+    "site": "bs-ranking",
+    "version": "sites/bs-ranking/versions/711bc09712a53c43"
+  }
+]
+[info] i  hosting[bs-ranking]: finalizing version... 
+[debug] [2021-01-06T03:27:19.234Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-06T03:27:19.234Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-06T03:27:19.752Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Wed, 06 Jan 2021 03:27:19 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:19.769Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/versions/711bc09712a53c43?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-01-06T03:27:20.893Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 Jan 2021 03:27:20 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:20.894Z] [hosting] finalized version for bs-ranking: {"name":"sites/bs-ranking/versions/711bc09712a53c43","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-01-06T03:27:16.714489Z","createUser":{"email":"shingo.pad@gmail.com"},"finalizeTime":"2021-01-06T03:27:20.877479Z","finalizeUser":{"email":"shingo.pad@gmail.com"}}
+[info] ✔  hosting[bs-ranking]: version finalized 
+[info] i  hosting[bs-ranking]: releasing new version... 
+[debug] [2021-01-06T03:27:20.895Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/bs-ranking/releases?version_name=sites/bs-ranking/versions/711bc09712a53c43  
+ {"message":null}
+[debug] [2021-01-06T03:27:22.136Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 06 Jan 2021 03:27:22 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-06T03:27:22.136Z] [hosting] release: {"name":"sites/bs-ranking/releases/1609903641514363","version":{"name":"sites/bs-ranking/versions/711bc09712a53c43","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-01-06T03:27:16.714489Z","createUser":{"email":"shingo.pad@gmail.com"},"finalizeTime":"2021-01-06T03:27:20.877479Z","finalizeUser":{"email":"shingo.pad@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2021-01-06T03:27:21.514363Z","releaseUser":{"email":"shingo.pad@gmail.com"}}
+[info] ✔  hosting[bs-ranking]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/bs-ranking/overview
+[info] Hosting URL: https://bs-ranking.web.app
