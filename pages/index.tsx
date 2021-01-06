@@ -3,6 +3,8 @@ import { Form } from "../components/domain/Form";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { BatchHttpLink } from "@apollo/link-batch-http";
 import { Hero } from "../components/layout";
+import firebase from "firebase/app";
+import "firebase/analytics";
 
 const client = new ApolloClient({
   link: new BatchHttpLink({
@@ -12,6 +14,19 @@ const client = new ApolloClient({
   }),
   cache: new InMemoryCache(),
 });
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBYhmVy5TkuhFDTAkD4hZF4BJPWFCEperw",
+  authDomain: "bs-ranking.firebaseapp.com",
+  projectId: "bs-ranking",
+  storageBucket: "bs-ranking.appspot.com",
+  messagingSenderId: "935819740593",
+  appId: "1:935819740593:web:5e1d0aec931e0e9f726990",
+  measurementId: "G-JBNYKR3SWB",
+};
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
 export default function Home() {
   return (
@@ -34,7 +49,7 @@ export default function Home() {
           //   <br />
           //   <span className="text-sm">も見れます</span>
           // </>
-          <>ランカー編成も見れます</>
+          <>ver1.1</>
         }
         thumbnail={<div />}
         className="py-20 px-3 mt-12 mb-6"
