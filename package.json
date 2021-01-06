@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
+    "deploy": "yarn export && firebase deploy",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

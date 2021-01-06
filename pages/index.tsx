@@ -18,14 +18,14 @@ const client = new ApolloClient({
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export default function Home() {
-  // useEffect(() => {
-  //   if (typeof window !== "undefined" && !firebase.apps.length) {
-  //     firebase.initializeApp(
-  //       JSON.parse(process.env.NEXT_PUBLIC_FIREBASE_CONFIG!)
-  //     );
-  //     firebase.analytics();
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (typeof window !== "undefined" && !firebase.apps.length) {
+      firebase.initializeApp(
+        JSON.parse(process.env.NEXT_PUBLIC_FIREBASE_CONFIG!)
+      );
+      firebase.analytics();
+    }
+  }, []);
   return (
     <>
       <Hero
