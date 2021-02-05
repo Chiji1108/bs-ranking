@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ["cdn.starlist.pro"],
+    domains: ["cdn.brawlify.com"],
   },
 };
