@@ -46,7 +46,7 @@ export default function Home() {
           //   <br />
           //   <span className="text-sm">も見れます</span>
           // </>
-          <>ver1.1</>
+          <>ver1.2</>
         }
         thumbnail={<div />}
         className="py-20 px-3 mt-12 mb-6"
