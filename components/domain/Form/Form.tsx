@@ -17,7 +17,7 @@ export interface Action {
 }
 
 const initialState: State = {
-  countryCode: "global",
+  countryCode: "jp",
   brawlerId: "",
   loadedPlayers: [],
   hasMore: true,
