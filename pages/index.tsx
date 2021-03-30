@@ -80,6 +80,12 @@ export default function Home() {
           www.supercell.com/fan-content-policy
         </a>
         ）。
+        <br />
+        公式APIに加え、
+        <a href="https://brawlify.com/" className="underline">
+          Brawlify.com
+        </a>
+        様からデータを取得させていただいています。
       </footer>
     </>
   );
