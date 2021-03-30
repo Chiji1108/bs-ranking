@@ -17,12 +17,20 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
+const firebaseConfig = {
+  apiKey: "AIzaSyBYhmVy5TkuhFDTAkD4hZF4BJPWFCEperw",
+  authDomain: "bs-ranking.firebaseapp.com",
+  projectId: "bs-ranking",
+  storageBucket: "bs-ranking.appspot.com",
+  messagingSenderId: "935819740593",
+  appId: "1:935819740593:web:5e1d0aec931e0e9f726990",
+  measurementId: "G-JBNYKR3SWB",
+};
+
 export default function Home() {
   useEffect(() => {
     if (typeof window !== "undefined" && !firebase.apps.length) {
-      firebase.initializeApp(
-        JSON.parse(process.env.NEXT_PUBLIC_FIREBASE_CONFIG!)
-      );
+      firebase.initializeApp(firebaseConfig);
       firebase.analytics();
     }
   }, []);
