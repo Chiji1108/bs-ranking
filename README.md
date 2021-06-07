@@ -1,3 +1,5 @@
+炎上により公開を停止しました
+
 # bs-ranking
 
 これは<https://bs-ranking.web.app>のフロントエンドです
